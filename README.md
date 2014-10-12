@@ -7,7 +7,7 @@ Primarily developed for Keski-Suomen Vihreät, but you may use it if you like.
 
 ## Technical details
 
- - child theme, based on FoundationPress theme
+ - child theme, based on [FoundationPress theme](https://github.com/olefredrik/foundationpress)
  - WordPress 4.0+
 
 ## Contributors
