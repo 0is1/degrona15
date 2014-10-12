@@ -1,0 +1,6 @@
+{
+  "name": "degrona-15",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}
