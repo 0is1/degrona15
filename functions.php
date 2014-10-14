@@ -35,3 +35,34 @@ function de_grona_15_add_scripts(){
  * Include dependencies
  */
 require_once( 'library/dependencies.php' );
+
+/**
+ * Add custom action: degrona15_before_content
+ * This adds De_Grona_Ehdokas-plugin stuff to the front_page
+ */
+add_action( 'degrona15_before_content', 'degrona15_before_content', 1, 0 );
+
+function degrona15_before_content(){
+
+  if ( is_front_page() ) :
+    // If De_Grona_Ehdokas-plugin is installed, retrieve $instance of the plugin
+    if ( function_exists( 'De_Grona_Ehdokas' ) ) {
+      $instance = De_Grona_Ehdokas::instance();
+      if ( $instance->get_candidate_data( 'degrona15_candidate_enable_home_page' ) ) {
+        $bg_img_id = $instance->get_candidate_data( 'degrona15_candidate_site_jumbotron' );
+        if ( $bg_img_id ) {
+          $bg_img = wp_get_attachment_image_src( $bg_img_id, 'full' );
+        }
+
+        $data = $instance->get_candidate_home_page_data(); ?>
+
+        <div class='de_grona_candidate_jumbotron' style='background-image: url(<?php echo $bg_img[0];?>);'>
+          <div class='row'>
+          <?php echo $data; ?>
+          </div>
+        </div>
+      <?php
+      }
+    }
+  endif;
+}
