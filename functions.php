@@ -57,9 +57,7 @@ function degrona15_before_content(){
         $data = $instance->get_candidate_home_page_data(); ?>
 
         <div class='de_grona_candidate_jumbotron' style='background-image: url(<?php echo $bg_img[0];?>);'>
-          <div class='row'>
           <?php echo $data; ?>
-          </div>
         </div>
       <?php
       }
