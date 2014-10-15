@@ -91,6 +91,54 @@ img.alignright {
  * ----------------------------------------------------------------------------
  */
 
+// Foundation overriders
+
+.top-bar-container, .tab-bar{
+	margin: 0;
+}
+
+.contain-to-grid, .top-bar{
+	background: $vihreat_de_grona_green;
+}
+.top-bar{
+	height: 60px;
+	.name {
+		height: 60px;
+		h1{
+			line-height: 60px;
+		}
+	}
+}
+.top-bar-section {
+	.top-bar-menu {
+		li {
+			> a {
+				font-size: 1.125rem;
+			}
+			&:not(.has-form) a:not(.button){
+				background: $vihreat_de_grona_green;
+				line-height: 60px;
+				&:hover{
+					background: $vihreat_de_grona_green_hover;
+				}
+			}
+			&.active:not(.has-form) {
+				a:not(.button){
+					background: $vihreat_de_grona_green_hover;
+				}
+			}
+			background: $vihreat_de_grona_green;
+		}
+	}
+}
+
+.top-bar-section .top-bar-menu .divider, .top-bar-section .top-bar-menu [role="separator"]{
+	border-right: solid 1px $basic_bg_color_alpha;
+	height: 60px;
+}
+
+// End of Foundation overriders
+
 // A more subtle background color for the active menu item
 .top-bar-section li.active:not(.has-form) a:not(.button)  {
 	background: #272727;
