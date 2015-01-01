@@ -25,12 +25,12 @@ function de_grona_15_add_scripts(){
   wp_register_script( 'de_grona_15_foundation', get_stylesheet_directory_uri() . '/js/app.js', array('jquery'), '1.0.0', true );
 
   wp_register_style( 'de_grona_styles', get_stylesheet_directory_uri() . '/css/app.css', array(), '1.0.0', 'screen' );
-  wp_enqueue_style('de_grona_styles' );
+  wp_enqueue_style( 'de_grona_styles' );
 
   // enqueue scripts
-  wp_enqueue_script('de_grona_15_modernizr');
-  wp_enqueue_script('de_grona_15_jquery');
-  wp_enqueue_script('de_grona_15_foundation');
+  wp_enqueue_script( 'de_grona_15_modernizr' );
+  wp_enqueue_script( 'de_grona_15_jquery' );
+  wp_enqueue_script( 'de_grona_15_foundation' );
 
 }
 
@@ -55,6 +55,8 @@ function degrona15_before_content(){
         $bg_img_id = $instance->get_candidate_data( 'degrona15_candidate_site_jumbotron' );
         if ( $bg_img_id ) {
           $bg_img = wp_get_attachment_image_src( $bg_img_id, 'full' );
+        } else {
+          $bg_img[0] = get_stylesheet_directory_uri() . '/assets/img/images/default-3.jpg';
         }
 
         $data = $instance->get_candidate_home_page_data(); ?>
