@@ -65,6 +65,10 @@ module.exports = function(grunt) {
       sass: {
         files: 'scss/**/*.scss',
         tasks: ['sass']
+      },
+      concat: {
+        files: 'js/custom/*.js',
+        tasks: ['concat']
       }
     }
   });
