@@ -16,6 +16,11 @@ Primarily developed for Keski-Suomen Vihreät, but you may use it if you like.
 
 ## Development
 
+#### Clone degrona-ehdokas -plugin in /plugins-folder
+```
+git clone git@github.com:VihreatDeGrona/degrona-ehdokas.git
+```
+
 #### Install this stuff
 * Node.js: Use the installer provided on the NodeJS website.
 * Grunt: Run [sudo] npm install -g grunt-cli
