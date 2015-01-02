@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: De Gröna 15\n"
+"POT-Creation-Date: 2015-01-02 21:58+0200\n"
+"PO-Revision-Date: 2015-01-02 21:59+0200\n"
+"Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
+"Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: bower_components\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: scss\n"
+"X-Poedit-SearchPathExcluded-4: css\n"
+
+#: front-page.php:22 page-full.php:23 page.php:20
+msgid "Pages:"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:161 library/dependencies.php:82
+msgid "Install Required Plugins"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:162 library/dependencies.php:83
+msgid "Install Plugins"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:163 library/dependencies.php:84
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:165 library/dependencies.php:86
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:166 library/dependencies.php:87
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:167 library/dependencies.php:88
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:168 library/dependencies.php:89
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:169 library/dependencies.php:90
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:170 library/dependencies.php:91
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:171 library/dependencies.php:92
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:172 library/dependencies.php:93
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:173 library/dependencies.php:94
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:174 library/dependencies.php:95
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:175 library/dependencies.php:96
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:177
+#: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:97
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:178
+#: library/class-tgm-plugin-activation.php:1636
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: library/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:534
+#: library/class-tgm-plugin-activation.php:2162
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1169
+msgid "Private Repository"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1172
+msgid "Pre-Packaged"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1177
+msgid "WordPress Repository"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1180
+msgid "Required"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1180
+msgid "Recommended"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1183
+msgid "Not Installed"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1185
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1290
+#: library/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1312
+#: library/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1928
+msgid "Install package not available."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1929
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1930
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1931
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1932
+msgid "Plugin install failed."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1933
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:1944
+msgid "Plugin activation failed."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2058
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2059
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2059
+#: library/class-tgm-plugin-activation.php:2068
+msgid "Show Details"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2059
+#: library/class-tgm-plugin-activation.php:2068
+msgid "Hide Details"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2060
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2061
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2065
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2066
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2068
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2069
+msgid "All installations have been completed."
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/dependencies.php:85
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: library/dependencies.php:98
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: library/theme-default-options.php:12
+msgid "The Main Menu"
+msgstr "Päävalikko"
+
+#: library/theme-default-options.php:16
+msgid "Home"
+msgstr "Etusivu"
+
+#: js/foundation/js/vendor/jquery.js:14
+msgid "<iframe frameborder='0' width='0' height='0'/>"
+msgstr ""
+
+#: js/foundation/js/vendor/jquery.js:26
+msgid "<script>"
+msgstr ""
+
+#: js/foundation/js/vendor/jquery.js:26
+msgid "<div>"
+msgstr ""
+
+#~ msgid "Owl"
+#~ msgstr "Pöllö"
+
+#~ msgid "The Main Menuuuu"
+#~ msgstr "Päävalikko"
