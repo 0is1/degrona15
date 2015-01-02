@@ -1,6 +1,16 @@
 <?php
 
 /**
+* Load theme textdomain
+*/
+
+add_action( 'after_setup_theme', 'degrona15_theme_setup' );
+
+function degrona15_theme_setup() {
+  load_child_theme_textdomain( 'DeGrona15', get_stylesheet_directory() . '/languages' );
+}
+
+/**
  * Remove parent theme scripts so we can handle all the scripts that are included
  * @see de_grona_15_add_scripts()
  */
@@ -37,9 +47,15 @@ function de_grona_15_add_scripts(){
 }
 
 /**
+ * Include theme default options
+ */
+require_once( 'library/theme-default-options.php' );
+
+/**
  * Include dependencies
  */
 require_once( 'library/dependencies.php' );
+
 
 /**
  * Add custom action: degrona15_before_content
