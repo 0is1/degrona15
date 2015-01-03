@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<?php do_action( 'degrona15_before_content' ); ?>
-
 <div class="row">
 	<div class="small-12 large-8 columns" role="main">
 
