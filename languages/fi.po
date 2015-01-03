@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-02 21:58+0200\n"
-"PO-Revision-Date: 2015-01-02 21:59+0200\n"
+"POT-Creation-Date: 2015-01-03 15:01+0200\n"
+"PO-Revision-Date: 2015-01-03 15:01+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -327,25 +327,21 @@ msgstr ""
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
-#: library/theme-default-options.php:12
+#: library/theme-default-options.php:42 library/theme-default-options.php:81
+msgid "Blog"
+msgstr "Blogi"
+
+#: library/theme-default-options.php:42
+msgid "blog"
+msgstr "blogi"
+
+#: library/theme-default-options.php:62
 msgid "The Main Menu"
 msgstr "Päävalikko"
 
-#: library/theme-default-options.php:16
+#: library/theme-default-options.php:71
 msgid "Home"
 msgstr "Etusivu"
-
-#: js/foundation/js/vendor/jquery.js:14
-msgid "<iframe frameborder='0' width='0' height='0'/>"
-msgstr ""
-
-#: js/foundation/js/vendor/jquery.js:26
-msgid "<script>"
-msgstr ""
-
-#: js/foundation/js/vendor/jquery.js:26
-msgid "<div>"
-msgstr ""
 
 #~ msgid "Owl"
 #~ msgstr "Pöllö"
