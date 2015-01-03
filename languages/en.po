@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-03 15:16+0200\n"
-"PO-Revision-Date: 2015-01-03 15:16+0200\n"
+"POT-Creation-Date: 2015-01-03 18:17+0200\n"
+"PO-Revision-Date: 2015-01-03 18:17+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: en\n"
@@ -22,10 +22,6 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-2: js\n"
 "X-Poedit-SearchPathExcluded-3: css\n"
 "X-Poedit-SearchPathExcluded-4: scss\n"
-
-#: front-page.php:22 page-full.php:21 page.php:20
-msgid "Pages:"
-msgstr ""
 
 #: library/class-tgm-plugin-activation.php:161 library/dependencies.php:82
 msgid "Install Required Plugins"
@@ -341,4 +337,73 @@ msgstr ""
 
 #: library/theme-default-options.php:71
 msgid "Home"
+msgstr ""
+
+#: library/theme-help-page.php:20
+msgid "About theme"
+msgstr ""
+
+#: library/theme-help-page.php:21
+msgid "DeGröna 15"
+msgstr ""
+
+#: library/theme-help-page.php:51
+msgid "Information about DeGröna 15-theme "
+msgstr ""
+
+#: library/theme-help-page.php:52
+msgid ""
+"DeGröna15-theme is designed especially for election candidates. You can "
+"easily add your personal information, image, vote number and frontpage "
+"background image (and much more) in <a href=\"admin.php?"
+"page=de_grona_ehdokas_settings\">Candidate'15 -page</a>"
+msgstr ""
+
+#: library/theme-help-page.php:57
+msgid "DeGröna 15 -theme"
+msgstr ""
+
+#: library/theme-help-page.php:60
+msgid "Focus is in important things"
+msgstr ""
+
+#: library/theme-help-page.php:61
+msgid ""
+"Theme is designed for election candidates. It is simple and fits in many "
+"needs. Theme design gets readers attention directly to the campaign main "
+"points."
+msgstr ""
+
+#: library/theme-help-page.php:62
+msgid "Donate and \"Get Involed\" -pages encourage visitors to act."
+msgstr ""
+
+#: library/theme-help-page.php:63
+msgid ""
+"Siirry muokkaamaan teeman asetuksia <a href=\"themes.php?page=degrona15-"
+"theme-settings-page\">tästä.</a>"
+msgstr ""
+
+#: library/theme-help-page.php:74
+msgid "Return to Updates"
+msgstr ""
+
+#: library/theme-help-page.php:74
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: library/theme-help-page.php:77
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: library/theme-help-page.php:77
+msgid "Go to Dashboard"
+msgstr ""
+
+#: library/theme-help-page.php:91
+msgid "DeGröna 15-theme settings"
+msgstr ""
+
+#: page-full.php:21 page.php:18
+msgid "Pages:"
 msgstr ""
