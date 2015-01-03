@@ -4,7 +4,7 @@ Template Name: Front Page
 */
 get_header(); ?>
 
-<?php do_action( 'degrona15_before_content' ); ?>
+<?php do_action( 'degrona15_add_candidate_content' ); ?>
 
 <div class="row">
 
@@ -18,11 +18,6 @@ get_header(); ?>
       <div class="entry-content">
         <?php the_content(); ?>
       </div>
-      <footer>
-        <?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'DeGrona15'), 'after' => '</p></nav>' )); ?>
-        <p><?php the_tags(); ?></p>
-      </footer>
-      <?php comments_template(); ?>
     </article>
   <?php endwhile; // End the loop ?>
 
