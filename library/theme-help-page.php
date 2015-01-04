@@ -71,10 +71,10 @@ function degrona15_theme_help_page(){
     <div class="return-to-dashboard">
       <?php if ( current_user_can( 'update_core' ) && isset( $_GET['updated'] ) ) : ?>
         <a href="<?php echo esc_url( self_admin_url( 'update-core.php' ) ); ?>">
-          <?php is_multisite() ? _e( 'Return to Updates' ) : _e( 'Return to Dashboard &rarr; Updates' );?></a> |
+          <?php is_multisite() ? _e( 'Return to Updates', 'DeGrona15' ) : _e( 'Return to Dashboard &rarr; Updates', 'DeGrona15' );?></a> |
       <?php endif; ?>
         <a href="<?php echo esc_url( self_admin_url() ); ?>">
-          <?php is_blog_admin() ? _e( 'Go to Dashboard &rarr; Home' ) : _e( 'Go to Dashboard' ); ?></a>
+          <?php is_blog_admin() ? _e( 'Go to Dashboard &rarr; Home', 'DeGrona15' ) : _e( 'Go to Dashboard', 'DeGrona15' ); ?></a>
     </div>
 
 
