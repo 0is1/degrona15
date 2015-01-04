@@ -60,7 +60,7 @@ function degrona15_theme_help_page(){
           <h4><?php _e( 'Focus is in important things', 'DeGrona15' ); ?></h4>
           <p><?php _e( 'Theme is designed for election candidates. It is simple and fits in many needs. Theme design gets readers attention directly to the campaign main points.', 'DeGrona15' ); ?></p>
           <p><?php _e( 'Donate and "Get Involed" -pages encourage visitors to act.', 'DeGrona15' ); ?></p>
-          <p><?php _e( 'Siirry muokkaamaan teeman asetuksia <a href="themes.php?page=degrona15-theme-settings-page">tästä.</a>', 'DeGrona15' ); ?></p>
+          <p><?php _e( 'Edit theme settings <a href="themes.php?page=degrona15-theme-settings-page">here.</a>', 'DeGrona15' ); ?></p>
 
         </div>
       </div>
