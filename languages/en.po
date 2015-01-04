@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-04 21:08+0200\n"
-"PO-Revision-Date: 2015-01-04 21:08+0200\n"
+"POT-Creation-Date: 2015-01-04 23:18+0200\n"
+"PO-Revision-Date: 2015-01-04 23:18+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: en\n"
@@ -22,6 +22,10 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-2: js\n"
 "X-Poedit-SearchPathExcluded-3: css\n"
 "X-Poedit-SearchPathExcluded-4: scss\n"
+
+#: content.php:16
+msgid "Continue reading..."
+msgstr ""
 
 #: library/class-tgm-plugin-activation.php:161 library/dependencies.php:82
 msgid "Install Required Plugins"
