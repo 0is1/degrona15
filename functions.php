@@ -79,7 +79,7 @@ function degrona15_add_candidate_content(){
         if ( $bg_img_id ) {
           $bg_img = wp_get_attachment_image_src( $bg_img_id, 'full' );
         } else {
-          $bg_img[0] = get_stylesheet_directory_uri() . '/assets/img/images/default-3.jpg';
+          $bg_img[0] = $instance->get_jumbtoron_default_bg();
         }
 
         $data = $instance->get_candidate_home_page_data(); ?>
