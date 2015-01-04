@@ -28,3 +28,15 @@ function remove_parent_theme_page_templates( $templates ) {
 }
 
 add_filter( 'theme_page_templates', 'remove_parent_theme_page_templates' );
+
+/**
+* Remove some theme support
+*/
+function remove_parent_theme_support() {
+
+  // This will remove support for custom header
+  remove_theme_support( 'custom-header' );
+
+}
+
+add_action( 'after_setup_theme', 'remove_parent_theme_support', 11 );
