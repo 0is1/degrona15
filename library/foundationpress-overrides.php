@@ -17,3 +17,14 @@ function remove_parent_theme_widgets(){
 }
 
 add_action( 'widgets_init', 'remove_parent_theme_widgets', 11 );
+
+/**
+* Unset parent theme page templates that we don't want to show
+*/
+function remove_parent_theme_page_templates( $templates ) {
+    unset( $templates['kitchen-sink.php'] );
+    unset( $templates['hero.php'] );
+    return $templates;
+}
+
+add_filter( 'theme_page_templates', 'remove_parent_theme_page_templates' );
