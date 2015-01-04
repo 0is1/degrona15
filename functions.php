@@ -36,6 +36,11 @@ require_once( 'library/theme-help-page.php' );
 require_once( 'library/dependencies.php' );
 
 /**
+ * Include theme widget areas
+ */
+require_once( 'library/widgets.php' );
+
+/**
  * Include entry-meta
  */
 require_once( 'library/entry-meta.php' );

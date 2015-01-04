@@ -3,8 +3,8 @@
 	<?php do_action( 'foundationPress_before_footer' ); ?>
 
   <?php
-    if ( is_active_sidebar( 'footer-widgets' ) ) :
-      dynamic_sidebar( 'footer-widgets' );
+    if ( is_active_sidebar( 'degrona15_footer' ) ) :
+      dynamic_sidebar( 'degrona15_footer' );
     endif;
   ?>
 
