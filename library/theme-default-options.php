@@ -8,7 +8,7 @@ function degrona15_setup_options() {
 
   $hello_world = get_post( 1, 'ARRAY_A' );
   // By default we check only english and finnish versions of default post/page
-  if( $hello_world && $hello_world['post_title'] == 'Hello World!' || $hello_world['post_title'] == 'Moikka maailma!') :
+  if( $hello_world && $hello_world['post_title'] == 'Hello world!' || $hello_world['post_title'] == 'Moikka maailma!') :
     wp_update_post(
       array (
             'ID'            => 1,
