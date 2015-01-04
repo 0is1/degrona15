@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-04 17:54+0200\n"
-"PO-Revision-Date: 2015-01-04 17:55+0200\n"
+"POT-Creation-Date: 2015-01-04 18:43+0200\n"
+"PO-Revision-Date: 2015-01-04 18:43+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: en\n"
@@ -411,6 +411,38 @@ msgstr ""
 
 #: library/theme-help-page.php:91
 msgid "DeGröna 15-theme settings"
+msgstr ""
+
+#: library/widgets.php:6
+msgid "Frontpage widgets"
+msgstr ""
+
+#: library/widgets.php:7
+msgid "Drag frontpage widgets to this container"
+msgstr ""
+
+#: library/widgets.php:16
+msgid "Frontpage social media widgets"
+msgstr ""
+
+#: library/widgets.php:17
+msgid "Drag social media widgets to this container"
+msgstr ""
+
+#: library/widgets.php:26
+msgid "Sidebar widgets"
+msgstr ""
+
+#: library/widgets.php:27
+msgid "Drag widgets to this sidebar container."
+msgstr ""
+
+#: library/widgets.php:36
+msgid "Footer widgets"
+msgstr ""
+
+#: library/widgets.php:37
+msgid "Drag widgets to this footer container"
 msgstr ""
 
 #: page-full.php:21 page.php:18 single.php:34
