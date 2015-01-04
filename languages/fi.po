@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-03 18:17+0200\n"
-"PO-Revision-Date: 2015-01-03 18:17+0200\n"
+"POT-Creation-Date: 2015-01-04 17:54+0200\n"
+"PO-Revision-Date: 2015-01-04 17:55+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -323,6 +323,15 @@ msgstr ""
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
+#: library/entry-meta.php:4
+#, php-format
+msgid "Posted on %s at %s."
+msgstr "Julkaistu %s %s."
+
+#: library/entry-meta.php:5
+msgid "Written by"
+msgstr "Kirjoittaja"
+
 #: library/theme-default-options.php:42 library/theme-default-options.php:81
 msgid "Blog"
 msgstr "Blogi"
@@ -388,9 +397,11 @@ msgstr ""
 
 #: library/theme-help-page.php:63
 msgid ""
+"Edit theme settings <a href=\"themes.php?page=degrona15-theme-settings-page"
+"\">here.</a>"
+msgstr ""
 "Siirry muokkaamaan teeman asetuksia <a href=\"themes.php?page=degrona15-"
 "theme-settings-page\">tästä.</a>"
-msgstr ""
 
 #: library/theme-help-page.php:74
 msgid "Return to Updates"
@@ -412,7 +423,7 @@ msgstr "Siirry Ohjauspaneeli-sivulle"
 msgid "DeGröna 15-theme settings"
 msgstr "DeGröna 15-teeman asetukset"
 
-#: page-full.php:21 page.php:18
+#: page-full.php:21 page.php:18 single.php:34
 msgid "Pages:"
 msgstr "Sivut:"
 
