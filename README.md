@@ -16,6 +16,11 @@ Primarily developed for Keski-Suomen Vihreät, but you may use it if you like.
 
 ## Development
 
+#### Clone FoundationPress-theme in /themes-folder
+```
+git clone git@github.com:olefredrik/FoundationPress.git
+```
+
 #### Clone degrona-ehdokas -plugin in /plugins-folder
 ```
 git clone git@github.com:VihreatDeGrona/degrona-ehdokas.git
