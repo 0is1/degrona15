@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-04 18:43+0200\n"
-"PO-Revision-Date: 2015-01-04 18:47+0200\n"
+"POT-Creation-Date: 2015-01-04 21:08+0200\n"
+"PO-Revision-Date: 2015-01-04 21:08+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -332,21 +332,25 @@ msgstr "Julkaistu %s %s."
 msgid "Written by"
 msgstr "Kirjoittaja"
 
-#: library/theme-default-options.php:42 library/theme-default-options.php:81
+#: library/theme-default-options.php:28 library/theme-default-options.php:72
+msgid "Home"
+msgstr "Etusivu"
+
+#: library/theme-default-options.php:29
+msgid "home"
+msgstr "etusivu"
+
+#: library/theme-default-options.php:43 library/theme-default-options.php:82
 msgid "Blog"
 msgstr "Blogi"
 
-#: library/theme-default-options.php:42
+#: library/theme-default-options.php:43
 msgid "blog"
 msgstr "blogi"
 
-#: library/theme-default-options.php:62
+#: library/theme-default-options.php:63
 msgid "The Main Menu"
 msgstr "Päävalikko"
-
-#: library/theme-default-options.php:71
-msgid "Home"
-msgstr "Etusivu"
 
 #: library/theme-help-page.php:20
 msgid "About theme"

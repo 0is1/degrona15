@@ -9,6 +9,7 @@ function degrona15_setup_options() {
   $hello_world = get_post( 1, 'ARRAY_A' );
   // By default we check only english and finnish versions of default post/page
   if( $hello_world && $hello_world['post_title'] == 'Hello world!' || $hello_world['post_title'] == 'Moikka maailma!') :
+    // TODO: translations!
     wp_update_post(
       array (
             'ID'            => 1,
@@ -24,8 +25,8 @@ function degrona15_setup_options() {
     wp_update_post(
       array (
             'ID'            => 2,
-            'post_title'    => 'Etusivu',
-            'post_name'     => 'etusivu',
+            'post_title'    => __('Home', 'DeGrona15'),
+            'post_name'     => __('home', 'DeGrona15'),
             'post_content'  => ''
       ) );
     update_option( 'page_on_front', 2 );
