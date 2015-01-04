@@ -42,6 +42,15 @@ npm install && bower install
 grunt
 ```
 
+## Production version
+* Build production version of .css and .js
+
+```
+grunt build
+```
+
+* __TODO __
+
 #### Stylesheet Folder Structure (from FoundationPress)
 
 * style.css: Do not worry about this file. (For some reason) it's required by WordPress. All styling are handled in the Sass files described below
