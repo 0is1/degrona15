@@ -78,13 +78,16 @@ img.alignright {
 	position: fixed !important;
 }
 
+.no-padding{
+	padding: 0 !important;
+}
 /**
  * 2.0 Typography
  * ----------------------------------------------------------------------------
  */
 
 // Insert styles here
-body, h1, h2, h3, h4, h5, h6, p{
+body, h1, h2, h3, h4, h5, h6{
 	font-family: "Pontano Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
@@ -143,10 +146,10 @@ body, h1, h2, h3, h4, h5, h6, p{
 
 // A more subtle background color for the active menu item
 .top-bar-section li.active:not(.has-form) a:not(.button)  {
-	background: #272727;
+	// background: #272727;
 }
 .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
-	background: #202020;
+	// background: #202020;
 }
 
 // Add some whitespace above the footer for medium-up screens
@@ -208,6 +211,20 @@ body, h1, h2, h3, h4, h5, h6, p{
 	 */
 
 	// Insert styles here
+	.searchform-no-button{
+		margin-right: 2%;
+		@media #{$small-only} {
+			margin: 2%;
+		}
+		input{
+			padding: 1rem;
+		}
+	}
+	.input-border-radius {
+		input{
+			border-radius: $global-radius;
+		}
+	}
 
 
 /**
