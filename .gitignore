@@ -6,3 +6,4 @@ bower_components/
 *.sublime-project
 js/*
 !js/custom/
+*.log
