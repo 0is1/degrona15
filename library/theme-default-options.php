@@ -4,7 +4,7 @@ add_action('after_switch_theme', 'degrona15_setup_options', 100 );
 
 function degrona15_setup_options() {
 
-  update_option('permalink_structure', '/%year%/%monthnum%/%day%/%postname%/' );
+  update_option( 'permalink_structure', '/%year%/%monthnum%/%day%/%postname%/' );
 
   $hello_world = get_post( 1, 'ARRAY_A' );
   // By default we check only english and finnish versions of default post/page
@@ -107,5 +107,140 @@ function degrona15_setup_options() {
     }
 
   endif;
+
+}
+
+add_action( 'after_switch_theme', 'degrona15_fire_set_default_widget_image', 10 );
+add_filter( 'degrona15_set_default_widget_image', 'degrona15_set_default_widget_image', 1, 0 );
+
+// Call degrona15_set_default_widget_image filter
+function degrona15_fire_set_default_widget_image(){
+  apply_filters( 'degrona15_set_default_widget_image', '' );
+}
+
+// Set default image
+function degrona15_set_default_widget_image(){
+
+  // Check if default image is set
+  $default_image = get_option( 'degrona15_default_image_id' );
+
+  // If default image is not set, let's create it
+  if ( ! $default_image ) :
+    // We need these to use download_url() and media_handle_sideload()
+    require_once( ABSPATH . 'wp-admin/includes/media.php' );
+    require_once( ABSPATH . 'wp-admin/includes/file.php' );
+    require_once( ABSPATH . 'wp-admin/includes/image.php' );
+
+    // Default image URI
+    // $url = 'https://dl.dropboxusercontent.com/u/11862254/vihreat/default-degrona-image-widget.jpg';
+    $url = get_stylesheet_directory_uri() .'/assets/img/images/default-degrona-image-widget.jpg';
+    $tmp = download_url( $url );
+    $file_array = array(
+      'name' => basename( $url ),
+      'tmp_name' => $tmp
+    );
+
+    // Check for download errors
+    if ( is_wp_error( $tmp ) ) {
+      @unlink( $file_array[ 'tmp_name' ] );
+      return $tmp;
+    }
+
+    $id = media_handle_sideload( $file_array, 0 );
+    // Check for handle sideload errors.
+    if ( is_wp_error( $id ) ) {
+      @unlink( $file_array['tmp_name'] );
+      return $id;
+    }
+
+    update_option( 'degrona15_default_image_id', $id );
+
+    return $id;
+
+  else :
+
+    return $default_image;
+
+  endif;
+}
+
+add_action( 'after_switch_theme', 'degrona15_call_setup_widgets', 9999 );
+
+function degrona15_call_setup_widgets(){
+  add_action( 'wp_loaded', 'degrona15_setup_widgets' );
+}
+
+function degrona15_setup_widgets(){
+
+  if( ! is_active_sidebar( 'degrona15_frontpage_full' ) ) :
+
+    $default_image_id = get_option( 'degrona15_default_image_id' );
+
+    if( ! $default_image_id ) :
+
+      $default_image_id = apply_filters( 'degrona15_set_default_widget_image', '' );
+
+    endif;
+
+    if ( ! is_wp_error( $default_image_id ) ) :
+
+      $default_widgets = array (
+        'degrona15_frontpage_full' => array (
+          0 => 'simpleimage-1',
+          1 => 'simpleimage-2'
+        )
+      );
+
+      update_option( 'widget_simpleimage',
+        array (
+          1 => array (
+            'title' => __( 'Vaaliteema 1', 'DeGrona15' ),
+            'text' => __( 'Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää vaaliteemasta voi lukea painamalla Lue Lisää -painiketta.', 'DeGrona15' ),
+            'link' => __( 'vihreat.fi', 'DeGrona15' ),
+            'link_text' => __( 'Lue Lisää', 'DeGrona15' ),
+            'image_size' => 'full',
+            'image_id' => $default_image_id
+            ),
+          2 => array (
+            'title' => __( 'Vaaliteema 2', 'DeGrona15' ),
+            'text' => __( 'Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin ensimmäinenkin.
+
+Tekstiä voi kirjoittaa myös toiselle riville! Pääset muokkaamaan kuvia ja tekstiä hallintapaneelissa: Ulkoasu &rarr; Vimpaimet ', 'DeGrona15' ),
+            'link' => __( 'vihreat.fi', 'DeGrona15' ),
+            'link_text' => __( 'Lue Lisää', 'DeGrona15' ),
+            'image_size' => 'full',
+            'image_id' => $default_image_id
+            )
+          )
+      );
+
+      update_option( 'sidebars_widgets',  $default_widgets );
+
+    endif;
+
+  endif;
+
+  // if( ! is_active_sidebar( 'degrona15_frontpage_socialmedia' ) ) :
+
+  //   $default_widgets = array (
+  //     'degrona15_frontpage_socialmedia' => array (
+  //       0 => 'TODO'
+  //     )
+  //   );
+
+  //   update_option( 'TODO',
+  //     array (
+  //       1 => array (
+  //         'title' => 'TODO'
+  //         )
+  //       )
+  //   );
+
+  //   $defaults_now = get_option( 'sidebars_widgets' );
+  //   $merged_defaults_widgets = array_merge( $defaults_now, $default_widgets );
+
+  //   update_option( 'sidebars_widgets',  $merged_defaults_widgets );
+
+  // endif;
 
 }
