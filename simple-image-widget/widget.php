@@ -15,7 +15,7 @@
 	<?php echo '<div class="column large-6 small-12 image-wrap">'; ?>
 	<?php if ( ! empty( $image_id ) ) : ?>
 		<div class="simple-image">
-			<figure title="<?php echo $link_text; ?> – <?php echo $link; ?>">
+			<figure class="left" title="<?php echo $link_text; ?> – <?php echo $link; ?>">
 				<?php
 					echo $link_open;
 					echo wp_get_attachment_image( $image_id, $image_size );
