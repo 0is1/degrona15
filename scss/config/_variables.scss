@@ -4,3 +4,7 @@
  */
 
  $site_content_max_width: "1280px";
+
+ @mixin right() {
+  float: right !important;
+}
