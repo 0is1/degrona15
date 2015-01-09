@@ -34,9 +34,9 @@
 		</section>
 	</nav>
 
-	<?php get_template_part('navigation/off-canvas-menu'); ?>
+	<?php get_template_part( 'navigation/off-canvas-menu' ); ?>
 
-	<?php get_template_part('navigation/top-bar'); ?>
+	<?php get_template_part( 'navigation/top-bar' ); ?>
 
 <section class="container" role="document">
-	<?php do_action('foundationPress_after_header'); ?>
+<?php do_action('foundationPress_after_header'); ?>
