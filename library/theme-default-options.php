@@ -4,7 +4,7 @@ add_action('after_switch_theme', 'degrona15_setup_options', 100 );
 
 function degrona15_setup_options() {
 
-  update_option( 'permalink_structure', '/%year%/%monthnum%/%day%/%postname%/' );
+  // update_option( 'permalink_structure', '/%year%/%monthnum%/%day%/%postname%/' );
 
   $hello_world = get_post( 1, 'ARRAY_A' );
   // By default we check only english and finnish versions of default post/page
