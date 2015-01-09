@@ -35,7 +35,7 @@ function degrona15_register_widgets() {
       'id' => 'degrona15_footer',
       'name' => __('Footer widgets', 'DeGrona15'),
       'description' => __('Drag widgets to this footer container', 'DeGrona15'),
-      'before_widget' => '<section id="%1$s" class="large-12 column widget %2$s">',
+      'before_widget' => '<section id="%1$s" class="large-6 small-12 column widget %2$s">',
       'after_widget' => '</section>',
       'before_title' => '<h6>',
       'after_title' => '</h6>'
