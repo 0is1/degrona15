@@ -81,6 +81,9 @@ img.alignright {
 .no-padding{
 	padding: 0 !important;
 }
+.button a{
+	color: $white;
+}
 /**
  * 2.0 Typography
  * ----------------------------------------------------------------------------
@@ -187,7 +190,31 @@ body, h1, h2, h3, h4, h5, h6{
 	 */
 
 	// Insert styles here
-
+	.degrona15_frontpage_widget{
+		border-top: 1px solid $vihreat_de_grona_green;
+		margin: 2rem 0 0;
+		padding: 2rem 0 0;
+		&:nth-of-type(even){
+			.image-wrap{
+				@include right();
+			}
+		}
+		&:last-of-type{
+			border-bottom: 1px solid $vihreat_de_grona_green;
+			padding-bottom: 2rem;
+		}
+		.image-wrap{
+			img{
+				border-radius: 10%;
+			}
+		}
+		.simple-image-content{
+			h6{
+				font-size: 2.5rem;
+				font-weight: 800;
+			}
+		}
+	}
 
 	/**
 	 * 4.4 Comments
@@ -213,11 +240,18 @@ body, h1, h2, h3, h4, h5, h6{
 	// Insert styles here
 	.searchform-no-button{
 		margin-right: 2%;
+
 		@media #{$small-only} {
 			margin: 2%;
 		}
 		input{
 			padding: 1rem;
+			float: right;
+			transition: width 500ms;
+			width: 50%;
+			&:focus{
+				width: 100%;
+			}
 		}
 	}
 	.input-border-radius {
