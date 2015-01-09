@@ -32,7 +32,13 @@ function required_plugins() {
         //     'source'             => 'https://github.com/VihreatDeGrona/degrona-ehdokas/archive/master.zip', // The plugin source.
         //     'external_url'       => 'https://github.com/VihreatDeGrona/degrona-ehdokas', // If set, overrides default API URL and points to an external URL.
         ),
-
+        array(
+            'name'               => 'Simple Image Widget', // The plugin name.
+            'slug'               => 'simple-image-widget', // The plugin slug (typically the folder name).
+            'required'           => true, // If false, the plugin is only 'recommended' instead of required.
+            'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
+            'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
+        ),
     //     // This is an example of how to include a plugin pre-packaged with a theme.
     //     array(
     //         'name'               => 'TGM Example Plugin', // The plugin name.
@@ -76,7 +82,7 @@ function required_plugins() {
         'has_notices'  => true,                    // Show admin notices or not.
         'dismissable'  => true,                    // If false, a user cannot dismiss the nag message.
         'dismiss_msg'  => '',                      // If 'dismissable' is false, this message will be output at top of nag.
-        'is_automatic' => false,                   // Automatically activate plugins after installation or not.
+        'is_automatic' => true,                   // Automatically activate plugins after installation or not.
         'message'      => '',                      // Message to output right before the plugins table.
         'strings'      => array(
             'page_title'                      => __( 'Install Required Plugins', 'tgmpa' ),
