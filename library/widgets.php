@@ -5,7 +5,7 @@ function degrona15_register_widgets() {
       'id' => 'degrona15_frontpage_full',
       'name' => __('Frontpage widgets', 'DeGrona15'),
       'description' => __('Drag frontpage widgets to this container', 'DeGrona15'),
-      'before_widget' => '<section id="%1$s" class="large-12 columns widget %2$s">',
+      'before_widget' => '<section id="%1$s" class="large-12 column widget degrona15_frontpage_widget %2$s">',
       'after_widget' => '</section>',
       'before_title' => '<h6>',
       'after_title' => '</h6>'
@@ -15,7 +15,7 @@ function degrona15_register_widgets() {
       'id' => 'degrona15_frontpage_socialmedia',
       'name' => __('Frontpage social media widgets', 'DeGrona15'),
       'description' => __('Drag social media widgets to this container', 'DeGrona15'),
-      'before_widget' => '<section id="%1$s" class="large-12 columns widget %2$s">',
+      'before_widget' => '<section id="%1$s" class="large-12 column widget degrona15_frontpage_social_media_widget %2$s">',
       'after_widget' => '</section>',
       'before_title' => '<h6>',
       'after_title' => '</h6>'
@@ -25,7 +25,7 @@ function degrona15_register_widgets() {
       'id' => 'degrona15_sidebar',
       'name' => __('Sidebar widgets', 'DeGrona15'),
       'description' => __('Drag widgets to this sidebar container.', 'DeGrona15'),
-      'before_widget' => '<section id="%1$s" class="row widget %2$s"><div class="small-12 large-4 columns">',
+      'before_widget' => '<section id="%1$s" class="row widget %2$s"><div class="small-12 large-4 column">',
       'after_widget' => '</div></section>',
       'before_title' => '<h6>',
       'after_title' => '</h6>'
@@ -35,7 +35,7 @@ function degrona15_register_widgets() {
       'id' => 'degrona15_footer',
       'name' => __('Footer widgets', 'DeGrona15'),
       'description' => __('Drag widgets to this footer container', 'DeGrona15'),
-      'before_widget' => '<section id="%1$s" class="large-12 columns widget %2$s">',
+      'before_widget' => '<section id="%1$s" class="large-12 column widget %2$s">',
       'after_widget' => '</section>',
       'before_title' => '<h6>',
       'after_title' => '</h6>'
