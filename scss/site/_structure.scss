@@ -244,7 +244,7 @@ body, h1, h2, h3, h4, h5, h6{
 		@media #{$small-only} {
 			margin: 2%;
 		}
-		input{
+		&.desktop input{
 			padding: 1rem;
 			float: right;
 			transition: width 500ms;
