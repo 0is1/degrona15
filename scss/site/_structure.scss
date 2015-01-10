@@ -155,15 +155,22 @@ body, h1, h2, h3, h4, h5, h6{
 	// background: #202020;
 }
 
-footer.row{
+footer.row {
+	background-color: $vihreat_de_grona_green;
 	padding: rem-calc(20);
+	*{
+		color: $oil;
+	}
 	p{
 		margin-bottom: 0;
 	}
-}
-// Add some whitespace above the footer for medium-up screens
-@media #{$medium-up} {
-	footer.row {
+	.logo{
+		img{
+			height: auto;
+			max-width: 200px;
+		}
+	}
+	@media #{$medium-up} {
 		margin-top: rem-calc(60);
 	}
 }
