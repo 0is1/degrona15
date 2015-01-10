@@ -11,10 +11,6 @@ get_header(); ?>
     if ( is_active_sidebar( 'degrona15_frontpage_full' ) ) :
       dynamic_sidebar( 'degrona15_frontpage_full' );
     endif;
-
-    if ( is_active_sidebar( 'degrona15_frontpage_socialmedia' ) ) :
-      dynamic_sidebar( 'degrona15_frontpage_socialmedia' );
-    endif;
   ?>
   <div class="small-12 large-12 columns" role="main">
   <?php /* Start loop */ ?>
