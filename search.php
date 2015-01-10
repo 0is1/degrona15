@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div class="row">
-	<div class="small-12 large-8 columns" role="main">
+<?php do_action( 'degrona15_before_page_content' ); ?>
+	<div class="small-12 large-8 column" role="main">
 
 		<?php do_action('foundationPress_before_content'); ?>
 
@@ -17,7 +18,7 @@
 
 	<?php endif;?>
 
-	<?php do_action('foundationPress_before_pagination'); ?>
+	<?php do_action( 'foundationPress_before_pagination' ); ?>
 
 	<?php if ( function_exists('FoundationPress_pagination') ) { FoundationPress_pagination(); } else if ( is_paged() ) { ?>
 
@@ -27,9 +28,11 @@
 		</nav>
 	<?php } ?>
 
-	<?php do_action('foundationPress_after_content'); ?>
+	<?php do_action( 'foundationPress_after_content'); ?>
 
 	</div>
-	<?php get_sidebar(); ?>
+	<?php do_action( 'degrona15_after_page_content' ); ?>
+</div>
+<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

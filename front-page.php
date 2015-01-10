@@ -5,8 +5,8 @@ Template Name: Front Page
 get_header(); ?>
 
 <?php do_action( 'degrona15_add_candidate_content' ); ?>
-<?php do_action( 'degrona15_before_page_content' ); ?>
 <div class="row">
+<?php do_action( 'degrona15_before_page_content' ); ?>
   <?php
     if ( is_active_sidebar( 'degrona15_frontpage_full' ) ) :
       dynamic_sidebar( 'degrona15_frontpage_full' );
@@ -26,6 +26,6 @@ get_header(); ?>
     </article>
   <?php endwhile; // End the loop ?>
   </div>
-</div>
 <?php do_action( 'degrona15_after_page_content' ); ?>
+</div>
 <?php get_footer(); ?>

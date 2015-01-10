@@ -3,9 +3,8 @@
 Template Name: Full Width
 */
 get_header(); ?>
-<?php do_action( 'degrona15_before_page_content' ); ?>
 <div class="row">
-
+<?php do_action( 'degrona15_before_page_content' ); ?>
 	<div class="small-12 large-12 columns" role="main">
 
 	<?php /* Start loop */ ?>
@@ -26,6 +25,6 @@ get_header(); ?>
 	<?php endwhile; // End the loop ?>
 
 	</div>
-</div>
 <?php do_action( 'degrona15_after_page_content' ); ?>
+</div>
 <?php get_footer(); ?>

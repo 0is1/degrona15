@@ -7,8 +7,8 @@
 ?>
 
 <?php get_header(); ?>
-<?php do_action( 'degrona15_before_page_content' ); ?>
 <div class="row">
+<?php do_action( 'degrona15_before_page_content' ); ?>
 	<div class="columns small-12 large-6" role="main">
 
 	<?php do_action('foundationPress_before_content'); ?>
@@ -41,10 +41,9 @@
 		</article>
 	<?php endwhile;?>
 
-	<?php do_action('foundationPress_after_content'); ?>
-
-	</div>
-	<?php do_action( 'degrona15_after_page_content' ); ?>
+<?php do_action('foundationPress_after_content'); ?>
+<?php do_action( 'degrona15_after_page_content' ); ?>
+</div>
 	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>
