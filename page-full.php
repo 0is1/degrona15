@@ -3,7 +3,7 @@
 Template Name: Full Width
 */
 get_header(); ?>
-
+<?php do_action( 'degrona15_before_page_content' ); ?>
 <div class="row">
 
 	<div class="small-12 large-12 columns" role="main">
@@ -27,5 +27,5 @@ get_header(); ?>
 
 	</div>
 </div>
-
+<?php do_action( 'degrona15_after_page_content' ); ?>
 <?php get_footer(); ?>

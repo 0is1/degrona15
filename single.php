@@ -7,6 +7,7 @@
 ?>
 
 <?php get_header(); ?>
+<?php do_action( 'degrona15_before_page_content' ); ?>
 <div class="row">
 	<div class="columns small-12 large-6" role="main">
 
@@ -43,6 +44,7 @@
 	<?php do_action('foundationPress_after_content'); ?>
 
 	</div>
+	<?php do_action( 'degrona15_after_page_content' ); ?>
 	<?php get_sidebar(); ?>
 </div>
 <?php get_footer(); ?>

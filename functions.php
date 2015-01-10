@@ -45,7 +45,6 @@ require_once( 'library/widgets.php' );
  */
 require_once( 'library/entry-meta.php' );
 
-
 /**
  * Add custom action: degrona15_add_candidate_content
  * This adds De_Grona_Ehdokas-plugin stuff to the front_page
@@ -98,3 +97,15 @@ function degrona15_add_candidate_contact_info(){
       }
     }
  }
+
+add_action( 'degrona15_before_page_content', 'degrona15_before_page_content', 1, 0 );
+function degrona15_before_page_content(){ ?>
+  <div class="content-wrap">
+<?php
+}
+
+add_action( 'degrona15_after_page_content', 'degrona15_after_page_content', 1, 0 );
+function degrona15_after_page_content(){ ?>
+  </div>
+<?php
+}
