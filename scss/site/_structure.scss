@@ -109,11 +109,11 @@ body, h1, h2, h3, h4, h5, h6{
 	background: $vihreat_de_grona_green;
 }
 .top-bar{
-	height: 60px;
+	height: $site_nav_height;
 	.name {
-		height: 60px;
+		height: $site_nav_height;
 		h1{
-			line-height: 60px;
+			line-height: $site_nav_height;
 		}
 	}
 }
@@ -125,7 +125,7 @@ body, h1, h2, h3, h4, h5, h6{
 			}
 			&:not(.has-form) a:not(.button){
 				background: $vihreat_de_grona_green;
-				line-height: 60px;
+				line-height: $site_nav_height;
 				&:hover{
 					background: $vihreat_de_grona_green_hover;
 				}
@@ -138,11 +138,29 @@ body, h1, h2, h3, h4, h5, h6{
 			background: $vihreat_de_grona_green;
 		}
 	}
+
+	.dropdown{
+		li:not(.has-form):not(.active){
+			&:hover{
+				> a:not(.button){
+					background: $vihreat_de_grona_green_hover;
+				}
+			}
+			> a:not(.button){
+				background: $vihreat_de_grona_green;
+			}
+		}
+	}
+	.has-dropdown{
+		> a:after{
+			top: 50%;
+		}
+	}
 }
 
 .top-bar-section .top-bar-menu .divider, .top-bar-section .top-bar-menu [role="separator"]{
 	border-right: solid 1px $basic_bg_color_alpha;
-	height: 60px;
+	height: $site_nav_height;
 }
 
 // End of Foundation overriders
@@ -259,13 +277,17 @@ footer.row {
 		@media #{$small-only} {
 			margin: 2%;
 		}
-		&.desktop input{
-			padding: 1rem;
-			float: right;
-			transition: width 500ms;
-			width: 50%;
-			&:focus{
-				width: 100%;
+		&.desktop {
+			height: $site_nav_height;
+			input {
+				padding: .5rem;
+				float: right;
+				height: auto;
+				transition: width 500ms;
+				width: 50%;
+				&:focus{
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -274,7 +296,6 @@ footer.row {
 			border-radius: $global-radius;
 		}
 	}
-
 
 /**
  * 5.0 Plugins
