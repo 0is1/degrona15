@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
 "POT-Creation-Date: 2015-01-10 19:49+0200\n"
-"PO-Revision-Date: 2015-01-10 19:51+0200\n"
+"PO-Revision-Date: 2015-01-10 20:41+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -612,7 +612,7 @@ msgstr "Sivut:"
 
 #: search.php:8
 msgid "Search Results for"
-msgstr "Hakutulokset hakusanoilla &#39;"
+msgstr "Hakutulokset hakusanoilla"
 
 #: search/navigation-search-mobile.php:4 search/navigation-search.php:4
 #: searchform.php:6 searchform.php:10
