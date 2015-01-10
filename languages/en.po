@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-04 23:18+0200\n"
-"PO-Revision-Date: 2015-01-04 23:18+0200\n"
+"POT-Creation-Date: 2015-01-10 19:51+0200\n"
+"PO-Revision-Date: 2015-01-10 19:51+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: en\n"
@@ -23,19 +23,66 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-3: css\n"
 "X-Poedit-SearchPathExcluded-4: scss\n"
 
-#: content.php:16
+#: 404.php:9
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:13
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr ""
+
+#: 404.php:15
+msgid "Please try the following:"
+msgstr ""
+
+#: 404.php:17
+msgid "Check your spelling"
+msgstr ""
+
+#: 404.php:18
+#, php-format
+msgid "Return to the <a href=\"%s\">home page</a>"
+msgstr ""
+
+#: 404.php:19
+msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
+msgstr ""
+
+#: 404.php:20
+msgid "Try search &darr;"
+msgstr ""
+
+#: archive.php:22 index.php:29 search.php:26
+msgid "&larr; Older posts"
+msgstr ""
+
+#: archive.php:23 index.php:30 search.php:27
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: content.php:13
 msgid "Continue reading..."
 msgstr ""
 
-#: library/class-tgm-plugin-activation.php:161 library/dependencies.php:82
+#: functions.php:96
+msgid "http://vihreat.fi"
+msgstr ""
+
+#: functions.php:96 functions.php:97
+msgid "Vihreät De Gröna"
+msgstr ""
+
+#: library/class-tgm-plugin-activation.php:161 library/dependencies.php:88
 msgid "Install Required Plugins"
 msgstr ""
 
-#: library/class-tgm-plugin-activation.php:162 library/dependencies.php:83
+#: library/class-tgm-plugin-activation.php:162 library/dependencies.php:89
 msgid "Install Plugins"
 msgstr ""
 
-#: library/class-tgm-plugin-activation.php:163 library/dependencies.php:84
+#: library/class-tgm-plugin-activation.php:163 library/dependencies.php:90
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
@@ -44,21 +91,21 @@ msgstr ""
 msgid "Something went wrong."
 msgstr ""
 
-#: library/class-tgm-plugin-activation.php:165 library/dependencies.php:86
+#: library/class-tgm-plugin-activation.php:165 library/dependencies.php:92
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:166 library/dependencies.php:87
+#: library/class-tgm-plugin-activation.php:166 library/dependencies.php:93
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:167 library/dependencies.php:88
+#: library/class-tgm-plugin-activation.php:167 library/dependencies.php:94
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
@@ -71,21 +118,21 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:168 library/dependencies.php:89
+#: library/class-tgm-plugin-activation.php:168 library/dependencies.php:95
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:169 library/dependencies.php:90
+#: library/class-tgm-plugin-activation.php:169 library/dependencies.php:96
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:170 library/dependencies.php:91
+#: library/class-tgm-plugin-activation.php:170 library/dependencies.php:97
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
@@ -98,7 +145,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:171 library/dependencies.php:92
+#: library/class-tgm-plugin-activation.php:171 library/dependencies.php:98
 #, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -109,7 +156,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:172 library/dependencies.php:93
+#: library/class-tgm-plugin-activation.php:172 library/dependencies.php:99
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
@@ -122,19 +169,19 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:173 library/dependencies.php:94
+#: library/class-tgm-plugin-activation.php:173 library/dependencies.php:100
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:174 library/dependencies.php:95
+#: library/class-tgm-plugin-activation.php:174 library/dependencies.php:101
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:175 library/dependencies.php:96
+#: library/class-tgm-plugin-activation.php:175 library/dependencies.php:102
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -143,7 +190,7 @@ msgid "Return to the dashboard"
 msgstr ""
 
 #: library/class-tgm-plugin-activation.php:177
-#: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:97
+#: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:103
 msgid "Plugin activated successfully."
 msgstr ""
 
@@ -318,11 +365,11 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: library/dependencies.php:85
+#: library/dependencies.php:91
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: library/dependencies.php:98
+#: library/dependencies.php:104
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
@@ -336,89 +383,177 @@ msgstr ""
 msgid "Written by"
 msgstr ""
 
-#: library/theme-default-options.php:28 library/theme-default-options.php:72
+#: library/theme-default-options.php:46
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: library/theme-default-options.php:78 library/theme-default-options.php:122
 msgid "Home"
 msgstr ""
 
-#: library/theme-default-options.php:29
+#: library/theme-default-options.php:79
 msgid "home"
 msgstr ""
 
-#: library/theme-default-options.php:43 library/theme-default-options.php:82
+#: library/theme-default-options.php:93 library/theme-default-options.php:132
 msgid "Blog"
 msgstr ""
 
-#: library/theme-default-options.php:43
+#: library/theme-default-options.php:93
 msgid "blog"
 msgstr ""
 
-#: library/theme-default-options.php:63
+#: library/theme-default-options.php:113
 msgid "The Main Menu"
 msgstr ""
 
-#: library/theme-help-page.php:20
+#: library/theme-default-options.php:249
+msgid "Vaaliteema 1"
+msgstr ""
+
+#: library/theme-default-options.php:250
+msgid ""
+"Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää "
+"vaaliteemasta voi lukea painamalla Read more -painiketta."
+msgstr ""
+
+#: library/theme-default-options.php:251 library/theme-default-options.php:261
+msgid "vihreat.fi"
+msgstr ""
+
+#: library/theme-default-options.php:252 library/theme-default-options.php:262
+msgid "Read more"
+msgstr ""
+
+#: library/theme-default-options.php:257
+msgid "Vaaliteema 2"
+msgstr ""
+
+#: library/theme-default-options.php:258
+msgid ""
+"Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin "
+"ensimmäinenkin.\n"
+"\n"
+"Tekstiä voi kirjoittaa myös toiselle riville! Pääset muokkaamaan kuvia ja "
+"tekstiä hallintapaneelissa: Ulkoasu &rarr; Vimpaimet "
+msgstr ""
+
+#: library/theme-default-widgets.php:9
+msgid "Add image and text box to your site."
+msgstr ""
+
+#: library/theme-default-widgets.php:10
+msgid "Text and Image"
+msgstr ""
+
+#: library/theme-default-widgets.php:112
+msgid "Url:"
+msgstr ""
+
+#: library/theme-default-widgets.php:116 library/theme-default-widgets.php:126
+msgid "Choose an Image"
+msgstr ""
+
+#: library/theme-default-widgets.php:117
+msgid "Update Image"
+msgstr ""
+
+#: library/theme-default-widgets.php:129
+msgid "Quote:"
+msgstr ""
+
+#: library/theme-default-widgets.php:133
+msgid "Show image"
+msgstr ""
+
+#: library/theme-help-and-settings-page.php:20
 msgid "About theme"
 msgstr ""
 
-#: library/theme-help-page.php:21
+#: library/theme-help-and-settings-page.php:21
 msgid "DeGröna 15"
 msgstr ""
 
-#: library/theme-help-page.php:51
+#: library/theme-help-and-settings-page.php:51
 msgid "Information about DeGröna 15-theme "
 msgstr ""
 
-#: library/theme-help-page.php:52
-msgid ""
-"DeGröna15-theme is designed especially for election candidates. You can "
-"easily add your personal information, image, vote number and frontpage "
-"background image (and much more) in <a href=\"admin.php?"
-"page=de_grona_ehdokas_settings\">Candidate'15 -page</a>"
+#: library/theme-help-and-settings-page.php:53
+msgid "DeGröna15-theme is designed especially for election candidates."
 msgstr ""
 
-#: library/theme-help-page.php:57
+#: library/theme-help-and-settings-page.php:55
+msgid ""
+"You can easily add your personal information, image, vote number and "
+"frontpage background image (and much more) in <a href=\"admin.php?"
+"page=de_grona_ehdokas_settings\">Candidate'15 -page</a> "
+msgstr ""
+
+#: library/theme-help-and-settings-page.php:61
 msgid "DeGröna 15 -theme"
 msgstr ""
 
-#: library/theme-help-page.php:60
+#: library/theme-help-and-settings-page.php:64
 msgid "Focus is in important things"
 msgstr ""
 
-#: library/theme-help-page.php:61
+#: library/theme-help-and-settings-page.php:65
 msgid ""
 "Theme is designed for election candidates. It is simple and fits in many "
 "needs. Theme design gets readers attention directly to the campaign main "
 "points."
 msgstr ""
 
-#: library/theme-help-page.php:62
-msgid "Donate and \"Get Involed\" -pages encourage visitors to act."
+#: library/theme-help-and-settings-page.php:67
+msgid ""
+"Donate and \"Get Involved\" -pages encourage visitors to act. You can add "
+"page links in <a href=\"admin.php?"
+"page=de_grona_ehdokas_settings&tab=other_info\">Candidate'15 &rarr; Other "
+"Info -page</a>"
 msgstr ""
 
-#: library/theme-help-page.php:63
+#: library/theme-help-and-settings-page.php:69
+msgid ""
+"We installed some cool widgets to your site already! You can easily remove "
+"and edit them or add new ones (to your site frontpage, sidebar and footer) "
+"in <a href=\"widgets.php\">Widgets -page</a>."
+msgstr ""
+
+#: library/theme-help-and-settings-page.php:71
 msgid ""
 "Edit theme settings <a href=\"themes.php?page=degrona15-theme-settings-page"
 "\">here.</a>"
 msgstr ""
 
-#: library/theme-help-page.php:74
+#: library/theme-help-and-settings-page.php:81
 msgid "Return to Updates"
 msgstr ""
 
-#: library/theme-help-page.php:74
+#: library/theme-help-and-settings-page.php:81
 msgid "Return to Dashboard &rarr; Updates"
 msgstr ""
 
-#: library/theme-help-page.php:77
+#: library/theme-help-and-settings-page.php:84
 msgid "Go to Dashboard &rarr; Home"
 msgstr ""
 
-#: library/theme-help-page.php:77
+#: library/theme-help-and-settings-page.php:84
 msgid "Go to Dashboard"
 msgstr ""
 
-#: library/theme-help-page.php:91
+#: library/theme-help-and-settings-page.php:98
 msgid "DeGröna 15-theme settings"
+msgstr ""
+
+#: library/theme-help-and-settings-page.php:99
+msgid "Not implemented yet, come back later!"
+msgstr ""
+
+#: library/theme-help-and-settings-page.php:101
+msgid ""
+"You can already edit many settings in <a href=\"admin.php?"
+"page=de_grona_ehdokas_settings\">Candidate'15 -page</a>"
 msgstr ""
 
 #: library/widgets.php:6
@@ -430,29 +565,30 @@ msgid "Drag frontpage widgets to this container"
 msgstr ""
 
 #: library/widgets.php:16
-msgid "Frontpage social media widgets"
-msgstr ""
-
-#: library/widgets.php:17
-msgid "Drag social media widgets to this container"
-msgstr ""
-
-#: library/widgets.php:26
 msgid "Sidebar widgets"
 msgstr ""
 
-#: library/widgets.php:27
+#: library/widgets.php:17
 msgid "Drag widgets to this sidebar container."
 msgstr ""
 
-#: library/widgets.php:36
+#: library/widgets.php:26
 msgid "Footer widgets"
 msgstr ""
 
-#: library/widgets.php:37
+#: library/widgets.php:27
 msgid "Drag widgets to this footer container"
 msgstr ""
 
-#: page-full.php:21 page.php:18 single.php:34
+#: page-full.php:20 page.php:18 single.php:35
 msgid "Pages:"
+msgstr ""
+
+#: search.php:8
+msgid "Search Results for"
+msgstr ""
+
+#: search/navigation-search-mobile.php:4 search/navigation-search.php:4
+#: searchform.php:6 searchform.php:10
+msgid "Search"
 msgstr ""
