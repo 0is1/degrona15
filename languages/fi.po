@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-05 13:53+0200\n"
-"PO-Revision-Date: 2015-01-05 13:53+0200\n"
+"POT-Creation-Date: 2015-01-10 13:17+0200\n"
+"PO-Revision-Date: 2015-01-10 13:34+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -27,38 +27,46 @@ msgstr ""
 msgid "Continue reading..."
 msgstr "Lue lisää..."
 
-#: library/class-tgm-plugin-activation.php:161 library/dependencies.php:82
+#: index.php:29 search.php:25
+msgid "&larr; Older posts"
+msgstr "﻿&larr; Vanhemmat artikkelit"
+
+#: index.php:30 search.php:26
+msgid "Newer posts &rarr;"
+msgstr "﻿Uudemmat artikkelit &rarr;"
+
+#: library/class-tgm-plugin-activation.php:161 library/dependencies.php:88
 msgid "Install Required Plugins"
-msgstr ""
+msgstr "Asenna vaaditut lisäosat"
 
-#: library/class-tgm-plugin-activation.php:162 library/dependencies.php:83
+#: library/class-tgm-plugin-activation.php:162 library/dependencies.php:89
 msgid "Install Plugins"
-msgstr ""
+msgstr "Asenna lisäosat"
 
-#: library/class-tgm-plugin-activation.php:163 library/dependencies.php:84
+#: library/class-tgm-plugin-activation.php:163 library/dependencies.php:90
 #, php-format
 msgid "Installing Plugin: %s"
-msgstr ""
+msgstr "Asennettaan %s lisäosaa"
 
 #: library/class-tgm-plugin-activation.php:164
 msgid "Something went wrong."
-msgstr ""
+msgstr "﻿Jotain meni pieleen."
 
-#: library/class-tgm-plugin-activation.php:165 library/dependencies.php:86
+#: library/class-tgm-plugin-activation.php:165 library/dependencies.php:92
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tämä teema vaatii seuraavan lisäosan: %1$s."
+msgstr[1] "Tämä teema vaatii seuraavat lisäosat: %1$s."
 
-#: library/class-tgm-plugin-activation.php:166 library/dependencies.php:87
+#: library/class-tgm-plugin-activation.php:166 library/dependencies.php:93
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tämä teema suosittelee seuraavaa lisäosaa: %1$s."
+msgstr[1] "Tämä teema suosittelee seuraavia lisäosia: %1$s."
 
-#: library/class-tgm-plugin-activation.php:167 library/dependencies.php:88
+#: library/class-tgm-plugin-activation.php:167 library/dependencies.php:94
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
@@ -71,21 +79,21 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:168 library/dependencies.php:89
+#: library/class-tgm-plugin-activation.php:168 library/dependencies.php:95
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:169 library/dependencies.php:90
+#: library/class-tgm-plugin-activation.php:169 library/dependencies.php:96
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:170 library/dependencies.php:91
+#: library/class-tgm-plugin-activation.php:170 library/dependencies.php:97
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
@@ -98,7 +106,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:171 library/dependencies.php:92
+#: library/class-tgm-plugin-activation.php:171 library/dependencies.php:98
 #, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -109,7 +117,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:172 library/dependencies.php:93
+#: library/class-tgm-plugin-activation.php:172 library/dependencies.php:99
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
@@ -122,28 +130,28 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:173 library/dependencies.php:94
+#: library/class-tgm-plugin-activation.php:173 library/dependencies.php:100
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Aloita lisäosan asennus"
+msgstr[1] "Aloita lisäosien asennus"
 
-#: library/class-tgm-plugin-activation.php:174 library/dependencies.php:95
+#: library/class-tgm-plugin-activation.php:174 library/dependencies.php:101
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:175 library/dependencies.php:96
+#: library/class-tgm-plugin-activation.php:175 library/dependencies.php:102
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
 #: library/class-tgm-plugin-activation.php:176
 msgid "Return to the dashboard"
-msgstr ""
+msgstr "Palaa Ohjauspaneeli-sivulle"
 
 #: library/class-tgm-plugin-activation.php:177
-#: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:97
+#: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:103
 msgid "Plugin activated successfully."
 msgstr ""
 
@@ -151,13 +159,13 @@ msgstr ""
 #: library/class-tgm-plugin-activation.php:1636
 msgid "The following plugin was activated successfully:"
 msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "﻿Seuraavan lisäosan aktivointi onnistui:"
+msgstr[1] "Seuraavien lisäosien aktivointi onnistui:"
 
 #: library/class-tgm-plugin-activation.php:179
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
+msgstr "﻿Kaikki lisäosat asennettiin ja aktivoitiin onnistuneesti. %1$s"
 
 #: library/class-tgm-plugin-activation.php:180
 msgid "Dismiss this notice"
@@ -182,29 +190,29 @@ msgstr ""
 
 #: library/class-tgm-plugin-activation.php:1180
 msgid "Required"
-msgstr ""
+msgstr "Vaadittu"
 
 #: library/class-tgm-plugin-activation.php:1180
 msgid "Recommended"
-msgstr ""
+msgstr "﻿Suositeltu"
 
 #: library/class-tgm-plugin-activation.php:1183
 msgid "Not Installed"
-msgstr ""
+msgstr "﻿Ei asennettu"
 
 #: library/class-tgm-plugin-activation.php:1185
 msgid "Installed But Not Activated"
-msgstr ""
+msgstr "Asennettu, mutta ei aktivoitu"
 
 #: library/class-tgm-plugin-activation.php:1290
 #: library/class-tgm-plugin-activation.php:1398
 msgid "Install"
-msgstr ""
+msgstr "﻿Asenna"
 
 #: library/class-tgm-plugin-activation.php:1312
 #: library/class-tgm-plugin-activation.php:1399
 msgid "Activate"
-msgstr ""
+msgstr "﻿Aktivoi"
 
 #: library/class-tgm-plugin-activation.php:1361
 #, php-format
@@ -212,31 +220,34 @@ msgid ""
 "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
+"﻿Ei asennettavia tai aktivoitavia lisäosia. <a href=\"%1$s\" title=\"Palaa "
+"Ohjauspaneeli-sivulle\">Palaa Ohjauspaneeli-sivulle</a>"
 
 #: library/class-tgm-plugin-activation.php:1377
 msgid "Plugin"
-msgstr ""
+msgstr "Lisäosa"
 
 #: library/class-tgm-plugin-activation.php:1378
 msgid "Source"
-msgstr ""
+msgstr "﻿Lähde"
 
 #: library/class-tgm-plugin-activation.php:1379
 msgid "Type"
-msgstr ""
+msgstr "﻿Tyyppi"
 
 #: library/class-tgm-plugin-activation.php:1380
 msgid "Status"
-msgstr ""
+msgstr "﻿Tila"
 
 #: library/class-tgm-plugin-activation.php:1928
 msgid "Install package not available."
-msgstr ""
+msgstr "﻿Asennuspaketti ei ole käytettävissä."
 
 #: library/class-tgm-plugin-activation.php:1929
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
+"﻿Ladataan asennuspakettia lähteestä  <span class=\"code\">%s</span>&#8230;"
 
 #: library/class-tgm-plugin-activation.php:1930
 msgid "Unpacking the package&#8230;"
@@ -244,11 +255,11 @@ msgstr ""
 
 #: library/class-tgm-plugin-activation.php:1931
 msgid "Installing the plugin&#8230;"
-msgstr ""
+msgstr "Asennetaan lisäosaa&#8230;"
 
 #: library/class-tgm-plugin-activation.php:1932
 msgid "Plugin install failed."
-msgstr ""
+msgstr "Lisäosan asennus epäonnistui."
 
 #: library/class-tgm-plugin-activation.php:1933
 msgid "Plugin installed successfully."
@@ -263,6 +274,8 @@ msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
+"﻿Asennus ja aktivointi alkaa. Tämä prosessi voi kestää kauan, joten ole "
+"kärsivällinen."
 
 #: library/class-tgm-plugin-activation.php:2059
 #, php-format
@@ -272,12 +285,12 @@ msgstr ""
 #: library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2068
 msgid "Show Details"
-msgstr ""
+msgstr "﻿Näytä yksityiskohdat"
 
 #: library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2068
 msgid "Hide Details"
-msgstr ""
+msgstr "﻿Kätke yksityiskohdat"
 
 #: library/class-tgm-plugin-activation.php:2060
 msgid "All installations and activations have been completed."
@@ -316,13 +329,13 @@ msgstr ""
 #: library/class-tgm-plugin-activation.php:2070
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
+msgstr "﻿Asennetaan lisäosaa %1$s (%2$d/%3$d)"
 
-#: library/dependencies.php:85
+#: library/dependencies.php:91
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: library/dependencies.php:98
+#: library/dependencies.php:104
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
@@ -336,25 +349,89 @@ msgstr "Julkaistu %s %s."
 msgid "Written by"
 msgstr "Kirjoittaja"
 
-#: library/theme-default-options.php:28 library/theme-default-options.php:72
+#: library/theme-default-options.php:46
+#, php-format
+msgid "Page %s"
+msgstr "﻿Sivu %s"
+
+#: library/theme-default-options.php:78 library/theme-default-options.php:122
 msgid "Home"
 msgstr "Etusivu"
 
-#: library/theme-default-options.php:29
+#: library/theme-default-options.php:79
 msgid "home"
 msgstr "etusivu"
 
-#: library/theme-default-options.php:43 library/theme-default-options.php:82
+#: library/theme-default-options.php:93 library/theme-default-options.php:132
 msgid "Blog"
 msgstr "Blogi"
 
-#: library/theme-default-options.php:43
+#: library/theme-default-options.php:93
 msgid "blog"
 msgstr "blogi"
 
-#: library/theme-default-options.php:63
+#: library/theme-default-options.php:113
 msgid "The Main Menu"
 msgstr "Päävalikko"
+
+#: library/theme-default-options.php:249
+msgid "Vaaliteema 1"
+msgstr ""
+
+#: library/theme-default-options.php:250
+msgid ""
+"Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää "
+"vaaliteemasta voi lukea painamalla Lue Lisää -painiketta."
+msgstr ""
+
+#: library/theme-default-options.php:251 library/theme-default-options.php:261
+msgid "vihreat.fi"
+msgstr ""
+
+#: library/theme-default-options.php:252 library/theme-default-options.php:262
+msgid "Lue Lisää"
+msgstr ""
+
+#: library/theme-default-options.php:257
+msgid "Vaaliteema 2"
+msgstr ""
+
+#: library/theme-default-options.php:258
+msgid ""
+"Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin "
+"ensimmäinenkin.\n"
+"\n"
+"Tekstiä voi kirjoittaa myös toiselle riville! Pääset muokkaamaan kuvia ja "
+"tekstiä hallintapaneelissa: Ulkoasu &rarr; Vimpaimet "
+msgstr ""
+
+#: library/theme-default-widgets.php:9
+msgid "Add image and text box to your site."
+msgstr "Lisää kuva ja tekstilaatikko sivustolle."
+
+#: library/theme-default-widgets.php:10
+msgid "Text and Image"
+msgstr "Teksti ja kuva"
+
+#: library/theme-default-widgets.php:112
+msgid "Url:"
+msgstr "Www-osoite:"
+
+#: library/theme-default-widgets.php:116 library/theme-default-widgets.php:126
+msgid "Choose an Image"
+msgstr "﻿Valitse kuva"
+
+#: library/theme-default-widgets.php:117
+msgid "Update Image"
+msgstr "﻿Päivitä kuva"
+
+#: library/theme-default-widgets.php:129
+msgid "Quote:"
+msgstr "Sitaatti: "
+
+#: library/theme-default-widgets.php:133
+msgid "Show image"
+msgstr "Näytä kuva"
 
 #: library/theme-help-page.php:20
 msgid "About theme"
@@ -467,10 +544,15 @@ msgstr "Alaosan vimpaimet"
 msgid "Drag widgets to this footer container"
 msgstr "Raahaa tähän vimpaimia, jotka haluat näkyvän sivuston alaosassa"
 
-#: page-full.php:21 page.php:18 single.php:34
+#: page-full.php:21 page.php:18 single.php:35
 msgid "Pages:"
 msgstr "Sivut:"
 
+#: search.php:7
+msgid "Search Results for"
+msgstr "Hakutulokset hakusanoilla &#39;"
+
+#: search/navigation-search-mobile.php:4 search/navigation-search.php:4
 #: searchform.php:6 searchform.php:10
 msgid "Search"
 msgstr "Etsi"
