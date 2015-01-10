@@ -1,6 +1,56 @@
 <?php
 
-add_action('after_switch_theme', 'degrona15_setup_options', 100 );
+/*
+* Check if title-tag theme_support is available (WP 4.1+)
+* If not, use fallback filter: degrona15_title
+*/
+if ( ! function_exists( '_wp_render_title_tag' ) ) :
+
+  add_filter( 'wp_title', 'degrona15_custom_title', 10, 2 );
+
+  function degrona15_title() { ?>
+    <title><?php wp_title( '|', true, 'right' ); ?></title>
+  <?php
+  }
+  add_action( 'wp_head', 'degrona15_title' );
+
+else :
+  /*
+  * Let WordPress manage the document title.
+  * By adding theme support, we declare that this theme does not use a
+  * hard-coded <title> tag in the document head, and expect WordPress to
+  * provide it for us.
+  */
+  add_theme_support( 'title-tag' );
+
+endif;
+
+function degrona15_custom_title( $title, $sep ){
+  if ( is_feed() ) {
+    return $title;
+  }
+
+  global $page, $paged;
+
+  // Add the blog name
+  $title .= get_bloginfo( 'name', 'display' );
+
+  // Add the blog description for the home/front page.
+  $site_description = get_bloginfo( 'description', 'display' );
+  if ( $site_description && ( is_home() || is_front_page() ) ) {
+    $title .= " $sep $site_description";
+  }
+
+  // Add a page number if necessary:
+  if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
+    $title .= " $sep " . sprintf( __( 'Page %s', '_s' ), max( $paged, $page ) );
+  }
+
+  return $title;
+}
+
+// Add default post / page and navigation in after_switch_theme hook
+add_action( 'after_switch_theme', 'degrona15_setup_options', 100 );
 
 function degrona15_setup_options() {
 
@@ -110,6 +160,7 @@ function degrona15_setup_options() {
 
 }
 
+// Add default widget image in after_switch_theme hook
 add_action( 'after_switch_theme', 'degrona15_fire_set_default_widget_image', 10 );
 add_filter( 'degrona15_set_default_widget_image', 'degrona15_set_default_widget_image', 1, 0 );
 
@@ -164,6 +215,7 @@ function degrona15_set_default_widget_image(){
   endif;
 }
 
+// Add default widgets in after_switch_theme hook
 add_action( 'after_switch_theme', 'degrona15_call_setup_widgets', 9999 );
 
 function degrona15_call_setup_widgets(){
