@@ -100,7 +100,7 @@ function degrona15_add_candidate_contact_info(){
 
 add_action( 'degrona15_before_page_content', 'degrona15_before_page_content', 1, 0 );
 function degrona15_before_page_content(){ ?>
-  <div class="content-wrap">
+  <div class="content-wrap clearfix">
 <?php
 }
 
