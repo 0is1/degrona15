@@ -247,9 +247,9 @@ function degrona15_setup_widgets(){
         array (
           1 => array (
             'title' => __( 'Vaaliteema 1', 'DeGrona15' ),
-            'text' => __( 'Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää vaaliteemasta voi lukea painamalla Lue Lisää -painiketta.', 'DeGrona15' ),
+            'text' => __( 'Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää vaaliteemasta voi lukea painamalla Read more -painiketta.', 'DeGrona15' ),
             'link' => __( 'vihreat.fi', 'DeGrona15' ),
-            'link_text' => __( 'Lue Lisää', 'DeGrona15' ),
+            'link_text' => __( 'Read more', 'DeGrona15' ),
             'image_size' => 'full',
             'image_id' => $default_image_id
             ),
@@ -259,7 +259,7 @@ function degrona15_setup_widgets(){
 
 Tekstiä voi kirjoittaa myös toiselle riville! Pääset muokkaamaan kuvia ja tekstiä hallintapaneelissa: Ulkoasu &rarr; Vimpaimet ', 'DeGrona15' ),
             'link' => __( 'vihreat.fi', 'DeGrona15' ),
-            'link_text' => __( 'Lue Lisää', 'DeGrona15' ),
+            'link_text' => __( 'Read more', 'DeGrona15' ),
             'image_size' => 'full',
             'image_id' => $default_image_id
             )
