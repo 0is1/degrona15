@@ -28,7 +28,7 @@ require_once( 'library/scripts.php' );
 /**
  * Include theme help page
  */
-require_once( 'library/theme-help-page.php' );
+require_once( 'library/theme-help-and-settings-page.php' );
 
 /**
  * Include dependencies
@@ -92,6 +92,11 @@ function degrona15_add_candidate_contact_info(){
         <div class="de_grona_candidate_info large-6 small-12 columns">
           <h3><?php bloginfo( 'name' ); ?></h3>
           <?php echo $data; ?>
+          <div class="logo">
+            <a href="<?php _e( 'http://vihreat.fi', 'DeGrona15' ); ?>" title="<?php _e( 'Vihreät De Gröna', 'DeGrona15' ); ?>">
+              <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/images/vihreat-logo.png" alt="<?php _e( 'Vihreät De Gröna', 'DeGrona15' ); ?>" width="200">
+            </a>
+          </div>
         </div>
       <?php
       }
