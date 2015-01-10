@@ -29,7 +29,7 @@ function degrona15_login_redirect( $redirect_to, $request, $user ) {
   //is there a user to check?
   global $user, $blog_id;
 
-  $has_logged_in = get_user_meta( $user->ID, '_degrona15_dismiss_theme_help_page_' . $blog_id, true);
+  $has_logged_in = get_user_meta( $user->ID, '_degrona15_dismiss_theme_help_page_' . $blog_id, true );
 
   if ( isset( $user->ID ) && ! $has_logged_in ) {
      $redirect_to = admin_url() . 'themes.php?page=degrona15-theme-help-page';
@@ -49,7 +49,11 @@ function degrona15_theme_help_page(){
   ?>
   <div class="wrap about-wrap">
     <h1><?php _e( 'Information about DeGröna 15-theme ', 'DeGrona15' ); ?></h1>
-    <div class="about-text"><?php _e('DeGröna15-theme is designed especially for election candidates. You can easily add your personal information, image, vote number and frontpage background image (and much more) in <a href="admin.php?page=de_grona_ehdokas_settings">Candidate\'15 -page</a>', 'DeGrona15' ); ?>
+    <div class="about-text">
+      <?php _e( 'DeGröna15-theme is designed especially for election candidates.', 'DeGrona15' ); ?>
+      <?php if ( function_exists( 'De_Grona_Ehdokas' ) ) {
+        _e( 'You can easily add your personal information, image, vote number and frontpage background image (and much more) in <a href="admin.php?page=de_grona_ehdokas_settings">Candidate\'15 -page</a> ', 'DeGrona15' );
+        } ?>
     </div>
     <div class="about-theme">
       <div class="feature-section col two-col">
@@ -59,9 +63,12 @@ function degrona15_theme_help_page(){
         <div>
           <h4><?php _e( 'Focus is in important things', 'DeGrona15' ); ?></h4>
           <p><?php _e( 'Theme is designed for election candidates. It is simple and fits in many needs. Theme design gets readers attention directly to the campaign main points.', 'DeGrona15' ); ?></p>
-          <p><?php _e( 'Donate and "Get Involed" -pages encourage visitors to act.', 'DeGrona15' ); ?></p>
-          <p><?php _e( 'Edit theme settings <a href="themes.php?page=degrona15-theme-settings-page">here.</a>', 'DeGrona15' ); ?></p>
-
+          <?php if ( function_exists( 'De_Grona_Ehdokas' ) ) { ?>
+          <p><?php _e( 'Donate and "Get Involved" -pages encourage visitors to act. You can add page links in <a href="admin.php?page=de_grona_ehdokas_settings&tab=other_info">Candidate\'15 &rarr; Other Info -page</a>', 'DeGrona15' ); ?></p>
+          <?php } ?>
+          <p><?php _e( 'We installed some cool widgets to your site already! You can easily remove and edit them or add new ones (to your site frontpage, sidebar and footer) in <a href="widgets.php">Widgets -page</a>.', 'DeGrona15' ); ?></p>
+          <?php //Do not show theme settings page here until there is real content to edit ?>
+          <!-- <p><?php _e( 'Edit theme settings <a href="themes.php?page=degrona15-theme-settings-page">here.</a>', 'DeGrona15' ); ?></p> -->
         </div>
       </div>
     </div>
@@ -89,6 +96,10 @@ function degrona15_theme_settings_page(){
   ?>
   <div class="wrap about-wrap">
     <h1><?php _e( 'DeGröna 15-theme settings', 'DeGrona15' ); ?></h1>
+    <p><?php _e( 'Not implemented yet, come back later!', 'DeGrona15' );?></p>
+    <?php if ( function_exists( 'De_Grona_Ehdokas' ) ) { ?>
+    <p><?php _e( 'You can already edit many settings in <a href="admin.php?page=de_grona_ehdokas_settings">Candidate\'15 -page</a>', 'DeGrona15' ); ?></p>
+    <?php } ?>
   </div>
   <?php
 }
