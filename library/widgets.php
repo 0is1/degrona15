@@ -15,8 +15,8 @@ function degrona15_register_widgets() {
       'id' => 'degrona15_sidebar',
       'name' => __( 'Sidebar widgets', 'DeGrona15' ),
       'description' => __( 'Drag widgets to this sidebar container.', 'DeGrona15' ),
-      'before_widget' => '<section id="%1$s" class="row widget %2$s"><div class="small-12 large-4 columns">',
-      'after_widget' => '</div></section>',
+      'before_widget' => '<section id="%1$s" class="row widget %2$s">',
+      'after_widget' => '</section>',
       'before_title' => '<h6>',
       'after_title' => '</h6>'
   ));
