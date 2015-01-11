@@ -25,6 +25,13 @@ else :
 
 endif;
 
+function remove_wp_default_widgets() {
+  // Remove recent posts widget because we use theme custom widget
+  unregister_widget( 'WP_Widget_Recent_Posts' );
+}
+
+add_action( 'widgets_init', 'remove_wp_default_widgets' );
+
 function degrona15_custom_title( $title, $sep ){
   if ( is_feed() ) {
     return $title;
@@ -240,7 +247,8 @@ function degrona15_setup_widgets(){
       $default_widgets = array (
         'degrona15_frontpage_full' => array (
           0 => 'simpleimage-1',
-          1 => 'simpleimage-2'
+          1 => 'simpleimage-2',
+          2 => 'degrona15-recent-posts-1'
         )
       );
 
@@ -267,33 +275,18 @@ Tekstiä voi kirjoittaa myös toiselle riville! Pääset muokkaamaan kuvia ja te
           )
       );
 
+      update_option( 'widget_degrona15-recent-posts',
+        array (
+          1 => array (
+            'number'  => 5
+          )
+        )
+      );
+
       update_option( 'sidebars_widgets',  $default_widgets );
 
     endif;
 
   endif;
-
-  // if( ! is_active_sidebar( 'degrona15_frontpage_socialmedia' ) ) :
-
-  //   $default_widgets = array (
-  //     'degrona15_frontpage_socialmedia' => array (
-  //       0 => 'TODO'
-  //     )
-  //   );
-
-  //   update_option( 'TODO',
-  //     array (
-  //       1 => array (
-  //         'title' => 'TODO'
-  //         )
-  //       )
-  //   );
-
-  //   $defaults_now = get_option( 'sidebars_widgets' );
-  //   $merged_defaults_widgets = array_merge( $defaults_now, $default_widgets );
-
-  //   update_option( 'sidebars_widgets',  $merged_defaults_widgets );
-
-  // endif;
 
 }
