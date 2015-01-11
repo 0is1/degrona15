@@ -228,6 +228,14 @@ footer.row {
 			margin: 2rem 0 0;
 		}
 	}
+	#sidebar {
+		.degrona15_widget_posts_entries{
+			> div {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
 	.degrona15_frontpage_widget{
 		border-top: 1px solid $vihreat_de_grona_green;
 		padding: 2rem 0 0;
