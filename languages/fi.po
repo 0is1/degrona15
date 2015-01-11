@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-11 12:38+0200\n"
-"PO-Revision-Date: 2015-01-11 12:44+0200\n"
+"POT-Creation-Date: 2015-01-11 19:54+0200\n"
+"PO-Revision-Date: 2015-01-11 19:54+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 1.7.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
@@ -81,7 +81,8 @@ msgstr ""
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
-msgstr "﻿Emme löytäneet hakuasi vastaavia artikkeleita. Yritä uudelleen."
+msgstr ""
+"Emme löytäneet hakuasi vastaavaa sisältöä. Yritä uudelleen eri hakutermeillä."
 
 #: content-none.php:23
 msgid ""
@@ -93,11 +94,11 @@ msgstr "Näyttää siltä, ettemme löydä, mitä etsit. Ehkä haku auttaa?"
 msgid "Continue reading..."
 msgstr "Lue lisää..."
 
-#: functions.php:96
+#: functions.php:101
 msgid "http://vihreat.fi"
 msgstr "http://vihreat.fi"
 
-#: functions.php:96 functions.php:97
+#: functions.php:101 functions.php:102
 msgid "Vihreät De Gröna"
 msgstr "Vihreät De Gröna"
 
@@ -415,20 +416,20 @@ msgstr "Julkaistu %s %s."
 msgid "Written by"
 msgstr "Kirjoittaja"
 
-#: library/theme-default-options.php:46
+#: library/theme-default-options.php:53
 #, php-format
 msgid "Page %s"
 msgstr "﻿Sivu %s"
 
-#: library/theme-default-options.php:67
+#: library/theme-default-options.php:73
 msgid "Newsletter: Welcome to WordPress!"
 msgstr "Tiedote: Tervetuloa käyttämään WordPressiä!"
 
-#: library/theme-default-options.php:68
+#: library/theme-default-options.php:74
 msgid "newsletter-welcome-to-wordpress"
 msgstr "tiedote-tervetuloa-kayttamaan-wordpressia"
 
-#: library/theme-default-options.php:69
+#: library/theme-default-options.php:75
 msgid ""
 "This is an example post. Posts can be used for example for blog texts. You "
 "can delete this post in admin panel &rarr; Posts &rarr; All Posts &rarr; "
@@ -441,49 +442,50 @@ msgstr ""
 "käyttämään WordPressiä!\"-artikkeli ja siirrä se roskakoriin. Voit "
 "kirjoittaa uusia artikkeleita valitsemalla \"Lisää uusi\" Artikkelit-sivulla."
 
-#: library/theme-default-options.php:80 library/theme-default-options.php:124
+#: library/theme-default-options.php:86 library/theme-default-options.php:130
 msgid "Home"
 msgstr "Etusivu"
 
-#: library/theme-default-options.php:81
+#: library/theme-default-options.php:87
 msgid "home"
 msgstr "etusivu"
 
-#: library/theme-default-options.php:95 library/theme-default-options.php:134
+#: library/theme-default-options.php:101 library/theme-default-options.php:140
 msgid "Blog"
 msgstr "Blogi"
 
-#: library/theme-default-options.php:95
+#: library/theme-default-options.php:101
 msgid "blog"
 msgstr "blogi"
 
-#: library/theme-default-options.php:115
+#: library/theme-default-options.php:121
 msgid "The Main Menu"
 msgstr "Päävalikko"
 
-#: library/theme-default-options.php:251
+#: library/theme-default-options.php:258
 msgid "Vaaliteema 1"
 msgstr ""
 
-#: library/theme-default-options.php:252
+#: library/theme-default-options.php:259
 msgid ""
 "Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää "
 "vaaliteemasta voi lukea painamalla Read more -painiketta."
 msgstr ""
 
-#: library/theme-default-options.php:253 library/theme-default-options.php:263
+#: library/theme-default-options.php:260 library/theme-default-options.php:270
 msgid "vihreat.fi"
 msgstr "vihreat.fi"
 
-#: library/theme-default-options.php:254 library/theme-default-options.php:264
+#: library/theme-default-options.php:261 library/theme-default-options.php:271
+#: library/theme-default-widgets.php:67
 msgid "Read more"
 msgstr "﻿Lue lisää"
 
-#: library/theme-default-options.php:259
+#: library/theme-default-options.php:266
 msgid "Vaaliteema 2"
 msgstr ""
 
-#: library/theme-default-options.php:260
+#: library/theme-default-options.php:267
 msgid ""
 "Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin "
 "ensimmäinenkin.\n"
@@ -493,32 +495,16 @@ msgid ""
 msgstr ""
 
 #: library/theme-default-widgets.php:9
-msgid "Add image and text box to your site."
-msgstr "Lisää kuva ja tekstilaatikko sivustolle."
+msgid "Your site&#8217;s recent posts."
+msgstr "Sivustosi uusimmat artikkelit."
 
 #: library/theme-default-widgets.php:10
-msgid "Text and Image"
-msgstr "Teksti ja kuva"
+msgid "Recent Posts"
+msgstr "Uusimmat artikkelit"
 
-#: library/theme-default-widgets.php:112
-msgid "Url:"
-msgstr "Www-osoite:"
-
-#: library/theme-default-widgets.php:116 library/theme-default-widgets.php:126
-msgid "Choose an Image"
-msgstr "﻿Valitse kuva"
-
-#: library/theme-default-widgets.php:117
-msgid "Update Image"
-msgstr "﻿Päivitä kuva"
-
-#: library/theme-default-widgets.php:129
-msgid "Quote:"
-msgstr "Sitaatti: "
-
-#: library/theme-default-widgets.php:133
-msgid "Show image"
-msgstr "Näytä kuva"
+#: library/theme-default-widgets.php:106
+msgid "Number of posts to show:"
+msgstr "Näytettävien artikkelien määrä:"
 
 #: library/theme-help-and-settings-page.php:20
 msgid "About theme"
@@ -651,7 +637,7 @@ msgstr "Alaosan vimpaimet"
 msgid "Drag widgets to this footer container"
 msgstr "Raahaa tähän vimpaimia, jotka haluat näkyvän sivuston alaosassa"
 
-#: page-full.php:20 page.php:18 single.php:35
+#: page-full.php:19 page.php:18 single.php:35
 msgid "Pages:"
 msgstr "Sivut:"
 
@@ -663,6 +649,27 @@ msgstr "Hakutulokset hakusanoilla"
 #: searchform.php:6 searchform.php:10
 msgid "Search"
 msgstr "Etsi"
+
+#~ msgid "Add image and text box to your site."
+#~ msgstr "Lisää kuva ja tekstilaatikko sivustolle."
+
+#~ msgid "Text and Image"
+#~ msgstr "Teksti ja kuva"
+
+#~ msgid "Url:"
+#~ msgstr "Www-osoite:"
+
+#~ msgid "Choose an Image"
+#~ msgstr "﻿Valitse kuva"
+
+#~ msgid "Update Image"
+#~ msgstr "﻿Päivitä kuva"
+
+#~ msgid "Quote:"
+#~ msgstr "Sitaatti: "
+
+#~ msgid "Show image"
+#~ msgstr "Näytä kuva"
 
 #~ msgid ""
 #~ "This is an example post. Posts can be used for example for blog texts. "
