@@ -12,7 +12,7 @@
  */
 ?>
 <?php echo '<div class="row simple-image-content">'; ?>
-	<?php echo '<div class="column large-6 small-12 image-wrap">'; ?>
+	<?php echo '<div class="columns large-6 small-12 image-wrap">'; ?>
 	<?php if ( ! empty( $image_id ) ) : ?>
 		<div class="simple-image">
 			<figure class="left" title="<?php echo $link_text; ?> – <?php echo $link; ?>">
@@ -25,7 +25,7 @@
 		</div>
 	<?php endif; ?>
 	<?php echo '</div>'; ?>
-	<?php echo '<div class="column large-6 small-12">'; ?>
+	<?php echo '<div class="columns large-6 small-12">'; ?>
 	<?php
 	if ( ! empty( $title ) ) :
 		echo $before_title . $title . $after_title;

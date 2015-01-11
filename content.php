@@ -10,7 +10,7 @@
 		<?php degrona15_entry_meta(); ?>
 	</header>
 	<div class="entry-content">
-		<?php the_content(__('Continue reading...', 'DeGrona15')); ?>
+		<?php the_content( __( 'Continue reading...', 'DeGrona15' ) ); ?>
 	</div>
 	<footer>
 		<?php $tag = get_the_tags(); if (!$tag) { } else { ?><p><?php the_tags(); ?></p><?php } ?>

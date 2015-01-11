@@ -7,11 +7,11 @@ get_header(); ?>
 <?php do_action( 'degrona15_add_candidate_content' ); ?>
 <div class="row">
 <?php do_action( 'degrona15_before_page_content' ); ?>
-  <?php
-    if ( is_active_sidebar( 'degrona15_frontpage_full' ) ) :
-      dynamic_sidebar( 'degrona15_frontpage_full' );
-    endif;
-  ?>
+  <?php if ( is_active_sidebar( 'degrona15_frontpage_full' ) ) : ?>
+      <div class="front-page-widgets clearfix">
+      <?php dynamic_sidebar( 'degrona15_frontpage_full' ); ?>
+      </div>
+  <?php endif; ?>
   <div class="small-12 large-12 columns" role="main">
   <?php /* Start loop */ ?>
   <?php while ( have_posts() ) : the_post(); ?>

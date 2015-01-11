@@ -14,7 +14,7 @@
 
 		<?php endwhile; ?>
 
-		<?php else : ?>
+	<?php else : ?>
 
 			<?php get_template_part( 'content', 'none' ); ?>
 
