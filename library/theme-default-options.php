@@ -58,26 +58,27 @@ function degrona15_setup_options() {
 
   $hello_world = get_post( 1, 'ARRAY_A' );
   // By default we check only english and finnish versions of default post/page
+  // TODO: swedish check
   if( $hello_world && $hello_world['post_title'] == 'Hello world!' || $hello_world['post_title'] == 'Moikka maailma!') :
-    // TODO: translations!
     wp_update_post(
       array (
-            'ID'            => 1,
-            'post_title'    => 'Tiedote: Tervetuloa käyttämään WordPressiä!',
-            'post_name'     => 'tiedote-tervetuloa-kayttamaan-wordpressia',
-            'post_content'  => 'Tämä on sivuston esimerkkiartikkeli. Artikkeleita on hyvä käyttää mm. blogitekstien julkaisemiseen. Poista tämä teksti hallintapaneelista -> Artikkelit -> Kaikki artikkelit -> valitse "Tiedote: Tervetuloa käyttämään WordPressiä!"-artikkeli ja siirrä se roskakoriin. Voit kirjoittaa uusia artikkeleita valitsemalla "Lisää uusi" Artikkelit-sivulla.'
+        'ID'            => 1,
+        'post_title'    => __( 'Newsletter: Welcome to WordPress!', 'DeGrona15' ),
+        'post_name'     => __( 'newsletter-welcome-to-wordpress', 'DeGrona15' ),
+        'post_content'  => __( 'This is an example post. Posts can be used for example for blog texts. You can delete this post in admin panel &rarr; Posts &rarr; All Posts &rarr; choose "Newsletter: Welcome to WordPress" and move it to the trash. You can write new posts by clicking the "Add New"-button in Posts -page.', 'DeGrona15' )
       ) );
   endif;
 
   $sample_page = get_post( 2, 'ARRAY_A' );
   // By default we check only english and finnish versions of default post/page
+  // TODO: swedish check
   if( $sample_page && $sample_page['post_title'] == 'Sample Page' || $sample_page['post_title'] == 'Esimerkkisivu') :
     wp_update_post(
       array (
-            'ID'            => 2,
-            'post_title'    => __('Home', 'DeGrona15'),
-            'post_name'     => __('home', 'DeGrona15'),
-            'post_content'  => ''
+        'ID'            => 2,
+        'post_title'    => __('Home', 'DeGrona15'),
+        'post_name'     => __('home', 'DeGrona15'),
+        'post_content'  => ''
       ) );
     update_option( 'page_on_front', 2 );
     update_option( 'show_on_front', 'page' );
@@ -90,7 +91,7 @@ function degrona15_setup_options() {
 
   if( ! $posts_page_id && ! get_page_by_path( 'blogi' )) :
 
-    $posts_page_id = wp_insert_post( array('post_title' => __('Blog', 'DeGrona15'), 'post_name' => __('blog', 'DeGrona15'), 'post_status' => 'publish', 'post_type' => 'page' ) );
+    $posts_page_id = wp_insert_post( array('post_title' => __( 'Blog', 'DeGrona15' ), 'post_name' => __( 'blog', 'DeGrona15' ), 'post_status' => 'publish', 'post_type' => 'page' ) );
 
     if( $posts_page_id ) :
 

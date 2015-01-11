@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-10 19:49+0200\n"
-"PO-Revision-Date: 2015-01-10 20:41+0200\n"
+"POT-Creation-Date: 2015-01-11 12:38+0200\n"
+"PO-Revision-Date: 2015-01-11 12:44+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -64,6 +64,30 @@ msgstr "﻿&larr; Vanhemmat artikkelit"
 #: archive.php:23 index.php:30 search.php:27
 msgid "Newer posts &rarr;"
 msgstr "﻿Uudemmat artikkelit &rarr;"
+
+#: content-none.php:8
+msgid "Nothing Found"
+msgstr "﻿Mitään ei löytynyt"
+
+#: content-none.php:14
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"﻿Valmis julkaisemaan ensimmäinen artikkeli? <a href=\"%1$s\">Aloita tästä</"
+"a> ."
+
+#: content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "﻿Emme löytäneet hakuasi vastaavia artikkeleita. Yritä uudelleen."
+
+#: content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Näyttää siltä, ettemme löydä, mitä etsit. Ehkä haku auttaa?"
 
 #: content.php:13
 msgid "Continue reading..."
@@ -396,49 +420,70 @@ msgstr "Kirjoittaja"
 msgid "Page %s"
 msgstr "﻿Sivu %s"
 
-#: library/theme-default-options.php:78 library/theme-default-options.php:122
+#: library/theme-default-options.php:67
+msgid "Newsletter: Welcome to WordPress!"
+msgstr "Tiedote: Tervetuloa käyttämään WordPressiä!"
+
+#: library/theme-default-options.php:68
+msgid "newsletter-welcome-to-wordpress"
+msgstr "tiedote-tervetuloa-kayttamaan-wordpressia"
+
+#: library/theme-default-options.php:69
+msgid ""
+"This is an example post. Posts can be used for example for blog texts. You "
+"can delete this post in admin panel &rarr; Posts &rarr; All Posts &rarr; "
+"choose \"Newsletter: Welcome to WordPress\" and move it to the trash. You "
+"can write new posts by clicking the \"Add New\"-button in Posts -page."
+msgstr ""
+"﻿Tämä on sivuston esimerkkiartikkeli. Artikkeleita on hyvä käyttää mm. "
+"blogitekstien julkaisemiseen. Poista tämä teksti hallintapaneelista &rarr; "
+"Artikkelit &rarr; Kaikki artikkelit &rarr; valitse \"Tiedote: Tervetuloa "
+"käyttämään WordPressiä!\"-artikkeli ja siirrä se roskakoriin. Voit "
+"kirjoittaa uusia artikkeleita valitsemalla \"Lisää uusi\" Artikkelit-sivulla."
+
+#: library/theme-default-options.php:80 library/theme-default-options.php:124
 msgid "Home"
 msgstr "Etusivu"
 
-#: library/theme-default-options.php:79
+#: library/theme-default-options.php:81
 msgid "home"
 msgstr "etusivu"
 
-#: library/theme-default-options.php:93 library/theme-default-options.php:132
+#: library/theme-default-options.php:95 library/theme-default-options.php:134
 msgid "Blog"
 msgstr "Blogi"
 
-#: library/theme-default-options.php:93
+#: library/theme-default-options.php:95
 msgid "blog"
 msgstr "blogi"
 
-#: library/theme-default-options.php:113
+#: library/theme-default-options.php:115
 msgid "The Main Menu"
 msgstr "Päävalikko"
 
-#: library/theme-default-options.php:249
+#: library/theme-default-options.php:251
 msgid "Vaaliteema 1"
 msgstr ""
 
-#: library/theme-default-options.php:250
+#: library/theme-default-options.php:252
 msgid ""
 "Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää "
 "vaaliteemasta voi lukea painamalla Read more -painiketta."
 msgstr ""
 
-#: library/theme-default-options.php:251 library/theme-default-options.php:261
+#: library/theme-default-options.php:253 library/theme-default-options.php:263
 msgid "vihreat.fi"
 msgstr "vihreat.fi"
 
-#: library/theme-default-options.php:252 library/theme-default-options.php:262
+#: library/theme-default-options.php:254 library/theme-default-options.php:264
 msgid "Read more"
 msgstr "﻿Lue lisää"
 
-#: library/theme-default-options.php:257
+#: library/theme-default-options.php:259
 msgid "Vaaliteema 2"
 msgstr ""
 
-#: library/theme-default-options.php:258
+#: library/theme-default-options.php:260
 msgid ""
 "Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin "
 "ensimmäinenkin.\n"
@@ -618,6 +663,20 @@ msgstr "Hakutulokset hakusanoilla"
 #: searchform.php:6 searchform.php:10
 msgid "Search"
 msgstr "Etsi"
+
+#~ msgid ""
+#~ "This is an example post. Posts can be used for example for blog texts. "
+#~ "You can delete this post in admin panel &rarr; Posts &rarr; All Posts "
+#~ "&rarr; choose \"Newsletter: Welcome to WordPress\" and move it to the "
+#~ "trash. You can write new posts by clicking tht \"Add New\"-button in "
+#~ "Posts -page."
+#~ msgstr ""
+#~ "Tämä on sivuston esimerkkiartikkeli. Artikkeleita on hyvä käyttää mm. "
+#~ "blogitekstien julkaisemiseen. Poista tämä teksti hallintapaneelista "
+#~ "&rarr; Artikkelit &rarr; Kaikki artikkelit &rarr; valitse \"Tiedote: "
+#~ "Tervetuloa käyttämään WordPressiä!\"-artikkeli ja siirrä se roskakoriin. "
+#~ "Voit kirjoittaa uusia artikkeleita valitsemalla \"Lisää uusi\" Artikkelit-"
+#~ "sivulla."
 
 #~ msgid "Donate and \"Get Involed\" -pages encourage visitors to act."
 #~ msgstr ""

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-10 19:51+0200\n"
-"PO-Revision-Date: 2015-01-10 19:51+0200\n"
+"POT-Creation-Date: 2015-01-11 12:44+0200\n"
+"PO-Revision-Date: 2015-01-11 12:44+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: en\n"
@@ -60,6 +60,28 @@ msgstr ""
 
 #: archive.php:23 index.php:30 search.php:27
 msgid "Newer posts &rarr;"
+msgstr ""
+
+#: content-none.php:8
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:14
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
 
 #: content.php:13
@@ -388,49 +410,65 @@ msgstr ""
 msgid "Page %s"
 msgstr ""
 
-#: library/theme-default-options.php:78 library/theme-default-options.php:122
+#: library/theme-default-options.php:66
+msgid "Newsletter: Welcome to WordPress!"
+msgstr ""
+
+#: library/theme-default-options.php:67
+msgid "newsletter-welcome-to-wordpress"
+msgstr ""
+
+#: library/theme-default-options.php:68
+msgid ""
+"This is an example post. Posts can be used for example for blog texts. You "
+"can delete this post in admin panel &rarr; Posts &rarr; All Posts &rarr; "
+"choose \"Newsletter: Welcome to WordPress\" and move it to the trash. You "
+"can write new posts by clicking the \"Add New\"-button in Posts -page."
+msgstr ""
+
+#: library/theme-default-options.php:79 library/theme-default-options.php:123
 msgid "Home"
 msgstr ""
 
-#: library/theme-default-options.php:79
+#: library/theme-default-options.php:80
 msgid "home"
 msgstr ""
 
-#: library/theme-default-options.php:93 library/theme-default-options.php:132
+#: library/theme-default-options.php:94 library/theme-default-options.php:133
 msgid "Blog"
 msgstr ""
 
-#: library/theme-default-options.php:93
+#: library/theme-default-options.php:94
 msgid "blog"
 msgstr ""
 
-#: library/theme-default-options.php:113
+#: library/theme-default-options.php:114
 msgid "The Main Menu"
 msgstr ""
 
-#: library/theme-default-options.php:249
+#: library/theme-default-options.php:250
 msgid "Vaaliteema 1"
 msgstr ""
 
-#: library/theme-default-options.php:250
+#: library/theme-default-options.php:251
 msgid ""
 "Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää "
 "vaaliteemasta voi lukea painamalla Read more -painiketta."
 msgstr ""
 
-#: library/theme-default-options.php:251 library/theme-default-options.php:261
+#: library/theme-default-options.php:252 library/theme-default-options.php:262
 msgid "vihreat.fi"
 msgstr ""
 
-#: library/theme-default-options.php:252 library/theme-default-options.php:262
+#: library/theme-default-options.php:253 library/theme-default-options.php:263
 msgid "Read more"
 msgstr ""
 
-#: library/theme-default-options.php:257
+#: library/theme-default-options.php:258
 msgid "Vaaliteema 2"
 msgstr ""
 
-#: library/theme-default-options.php:258
+#: library/theme-default-options.php:259
 msgid ""
 "Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin "
 "ensimmäinenkin.\n"
