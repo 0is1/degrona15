@@ -25,7 +25,7 @@
 	<?php } ?>
 
 	</div>
-	<?php do_action( 'degrona15_after_page_content' ); ?>
 	<?php get_sidebar(); ?>
+	<?php do_action( 'degrona15_after_page_content' ); ?>
 </div>
 <?php get_footer(); ?>
