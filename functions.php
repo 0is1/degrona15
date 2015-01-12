@@ -90,23 +90,41 @@ function degrona15_add_candidate_content(){
 add_action( 'degrona15_add_candidate_contact_info', 'degrona15_add_candidate_contact_info', 1, 0 );
 function degrona15_add_candidate_contact_info(){
   // If De_Grona_Ehdokas-plugin is installed, retrieve $instance of the plugin
-    if ( function_exists( 'De_Grona_Ehdokas' ) ) {
-      $instance = De_Grona_Ehdokas::instance();
-      if ( $instance->get_candidate_data( 'degrona15_candidate_enable_home_page' ) ) {
-        $data = $instance->get_candidate_contact_information_data(); ?>
-        <div class="de_grona_candidate_info large-6 small-12 columns">
-          <h3><?php bloginfo( 'name' ); ?></h3>
-          <?php echo $data; ?>
-          <div class="logo">
-            <a href="<?php _e( 'http://vihreat.fi', 'DeGrona15' ); ?>" title="<?php _e( 'Vihreät De Gröna', 'DeGrona15' ); ?>">
-              <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/images/vihreat-logo.png" alt="<?php _e( 'Vihreät De Gröna', 'DeGrona15' ); ?>" width="200">
-            </a>
-          </div>
+  if ( function_exists( 'De_Grona_Ehdokas' ) ) {
+    $instance = De_Grona_Ehdokas::instance();
+    if ( $instance->get_candidate_data( 'degrona15_candidate_enable_home_page' ) ) {
+      $data = $instance->get_candidate_contact_information_data(); ?>
+      <div class="de_grona_candidate_info large-6 medium-6 small-12 columns">
+        <h3><?php bloginfo( 'name' ); ?></h3>
+        <?php echo $data; ?>
+        <div class="logo">
+          <a href="<?php _e( 'http://vihreat.fi', 'DeGrona15' ); ?>" title="<?php _e( 'Vihreät De Gröna', 'DeGrona15' ); ?>">
+            <img src="<?php echo get_stylesheet_directory_uri();?>/assets/img/images/vihreat-logo.png" alt="<?php _e( 'Vihreät De Gröna', 'DeGrona15' ); ?>" width="200">
+          </a>
         </div>
-      <?php
-      }
+      </div>
+    <?php
     }
+  }
  }
+
+/**
+ * Add custom action: degrona15_add_call_to_action_buttons
+ * This adds De_Grona_Ehdokas-plugin "call to action" -buttons
+ */
+add_action( 'degrona15_add_call_to_action_buttons', 'degrona15_add_call_to_action_buttons', 1, 0 );
+function degrona15_add_call_to_action_buttons(){
+  if ( function_exists( 'De_Grona_Ehdokas' ) ) {
+    $instance = De_Grona_Ehdokas::instance();
+    $data = $instance->get_call_to_action_buttons();
+    if ( !empty( $data ) ) : ?>
+      <div class="call-to-action-buttons large-4 medium-6 small-12 columns">
+        <?php echo $data; ?>
+      </div>
+  <?php
+    endif;
+  }
+}
 
 add_action( 'degrona15_before_page_content', 'degrona15_before_page_content', 1, 0 );
 function degrona15_before_page_content(){ ?>
