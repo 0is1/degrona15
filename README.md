@@ -48,8 +48,10 @@ grunt
 ```
 grunt build
 ```
-
-* __TODO __
+* Copy theme files to degrona15 -folder and create install ready .zip file to zip -folder
+```
+grunt build_theme
+```
 
 #### Stylesheet Folder Structure (from FoundationPress)
 
