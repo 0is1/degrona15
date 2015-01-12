@@ -227,7 +227,7 @@ function degrona15_set_default_widget_image(){
 add_action( 'after_switch_theme', 'degrona15_call_setup_widgets', 9999 );
 
 function degrona15_call_setup_widgets(){
-  add_action( 'wp_loaded', 'degrona15_setup_widgets' );
+  add_action( 'wp_loaded', 'degrona15_setup_widgets', 9999 );
 }
 
 function degrona15_setup_widgets(){
@@ -283,9 +283,33 @@ Tekstiä voi kirjoittaa myös toiselle riville! Pääset muokkaamaan kuvia ja te
         )
       );
 
-      update_option( 'sidebars_widgets',  $default_widgets );
+      $defaults_now = get_option( 'sidebars_widgets' );
+      $merged_defaults_widgets = array_merge( $defaults_now, $default_widgets );
+      update_option( 'sidebars_widgets',  $merged_defaults_widgets );
 
     endif;
+
+  endif;
+
+  if( ! is_active_sidebar( 'degrona15_sidebar' ) ) :
+
+      $default_widgets = array (
+        'degrona15_sidebar' => array (
+          0 => 'archives-1'
+        )
+      );
+
+      update_option( 'widget_archives',
+        array (
+          1 => array (
+            'title'  => __( 'Archive', 'DeGrona15' )
+          )
+        )
+      );
+
+      $defaults_now = get_option( 'sidebars_widgets' );
+      $merged_defaults_widgets = array_merge( $defaults_now, $default_widgets );
+      update_option( 'sidebars_widgets',  $merged_defaults_widgets );
 
   endif;
 
