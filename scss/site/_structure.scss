@@ -223,6 +223,11 @@ footer.row {
 	 */
 
 	// Insert styles here
+	.widget {
+		h6{
+			font-size: 1.5rem;
+		}
+	}
 	.front-page-widgets{
 		.widget{
 			margin: 2rem 0 0;
@@ -295,11 +300,7 @@ footer.row {
 				padding: .5rem;
 				float: right;
 				height: auto;
-				transition: width 500ms;
-				width: 50%;
-				&:focus{
-					width: 100%;
-				}
+				width: 100%;
 			}
 		}
 	}
