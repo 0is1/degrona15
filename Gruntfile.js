@@ -21,6 +21,34 @@ module.exports = function(grunt) {
       }
     },
     copy: {
+      theme: {
+        files: [{
+          expand: true,
+          cwd: 'assets/',
+          src: '**/*.{png,jpg,jpeg,svg,eot,woff,ttf}',
+          dest: 'degrona15/assets/'
+        }, {
+          expand: true,
+          cwd: 'css/',
+          src: '*.css',
+          dest: 'degrona15/css/'
+        }, {
+          expand: true,
+          cwd: 'js/',
+          src: ['app.js', 'modernizr/modernizr.min.js', 'jquery/dist/jquery.min.js'],
+          dest: 'degrona15/js/'
+        }, {
+          expand: true,
+          cwd: '.',
+          src: '*.{txt,png,css}',
+          dest: 'degrona15/'
+        }, {
+          expand: true,
+          cwd: '.',
+          src: ['*.php', 'library/*.php', 'navigation/*.php', 'search/*.php', 'simple-image-widget/*.php', 'languages/*'],
+          dest: 'degrona15/'
+        }]
+      },
       scripts: {
         expand: true,
         cwd: 'bower_components/',
@@ -37,9 +65,11 @@ module.exports = function(grunt) {
     },
     uglify: {
       dist: {
-        files: {
+        files: [{
           'js/modernizr/modernizr.min.js': ['js/modernizr/modernizr.js']
-        }
+        }, {
+          'js/custom/degrona15.min.js': ['js/custom/degrona15.js']
+        }]
       }
     },
     concat: {
@@ -49,14 +79,13 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'js/foundation/js/foundation.min.js',
-          'js/custom/*.js'
+          'js/custom/*.min.js'
         ],
 
         dest: 'js/app.js'
       }
 
     },
-
     watch: {
       grunt: {
         files: ['Gruntfile.js']
@@ -70,16 +99,17 @@ module.exports = function(grunt) {
         files: 'js/custom/*.js',
         tasks: ['concat']
       }
+    },
+    zip: {
+      theme: {
+        dest: 'zip/degrona15.zip',
+        src: 'degrona15/**'
+      }
     }
   });
 
-  // grunt.loadNpmTasks('grunt-sass');
-  // grunt.loadNpmTasks('grunt-contrib-watch');
-  // grunt.loadNpmTasks('grunt-contrib-concat');
-  // grunt.loadNpmTasks('grunt-contrib-copy');
-  // grunt.loadNpmTasks('grunt-contrib-uglify');
-
-  grunt.registerTask('build', ['sass', 'copy', 'concat', 'uglify']);
-  grunt.registerTask('default', ['copy', 'uglify', 'concat', 'watch']);
+  grunt.registerTask('build', ['sass', 'copy:scripts', 'copy:maps', 'uglify', 'concat']);
+  grunt.registerTask('default', ['uglify', 'concat', 'copy:scripts', 'copy:maps', 'watch']);
+  grunt.registerTask('build_theme', ['copy:theme', 'zip:theme']);
 
 }
