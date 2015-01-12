@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-11 19:54+0200\n"
-"PO-Revision-Date: 2015-01-11 19:54+0200\n"
+"POT-Creation-Date: 2015-01-12 17:33+0200\n"
+"PO-Revision-Date: 2015-01-12 17:33+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -102,15 +102,15 @@ msgstr "http://vihreat.fi"
 msgid "Vihreät De Gröna"
 msgstr "Vihreät De Gröna"
 
-#: library/class-tgm-plugin-activation.php:161 library/dependencies.php:88
+#: library/class-tgm-plugin-activation.php:161 library/dependencies.php:86
 msgid "Install Required Plugins"
 msgstr "Asenna vaaditut lisäosat"
 
-#: library/class-tgm-plugin-activation.php:162 library/dependencies.php:89
+#: library/class-tgm-plugin-activation.php:162 library/dependencies.php:87
 msgid "Install Plugins"
 msgstr "Asenna lisäosat"
 
-#: library/class-tgm-plugin-activation.php:163 library/dependencies.php:90
+#: library/class-tgm-plugin-activation.php:163 library/dependencies.php:88
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "Asennettaan %s lisäosaa"
@@ -119,21 +119,21 @@ msgstr "Asennettaan %s lisäosaa"
 msgid "Something went wrong."
 msgstr "﻿Jotain meni pieleen."
 
-#: library/class-tgm-plugin-activation.php:165 library/dependencies.php:92
+#: library/class-tgm-plugin-activation.php:165 library/dependencies.php:90
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] "Tämä teema vaatii seuraavan lisäosan: %1$s."
 msgstr[1] "Tämä teema vaatii seuraavat lisäosat: %1$s."
 
-#: library/class-tgm-plugin-activation.php:166 library/dependencies.php:93
+#: library/class-tgm-plugin-activation.php:166 library/dependencies.php:91
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] "Tämä teema suosittelee seuraavaa lisäosaa: %1$s."
 msgstr[1] "Tämä teema suosittelee seuraavia lisäosia: %1$s."
 
-#: library/class-tgm-plugin-activation.php:167 library/dependencies.php:94
+#: library/class-tgm-plugin-activation.php:167 library/dependencies.php:92
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
@@ -146,21 +146,21 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:168 library/dependencies.php:95
+#: library/class-tgm-plugin-activation.php:168 library/dependencies.php:93
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:169 library/dependencies.php:96
+#: library/class-tgm-plugin-activation.php:169 library/dependencies.php:94
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:170 library/dependencies.php:97
+#: library/class-tgm-plugin-activation.php:170 library/dependencies.php:95
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
@@ -173,7 +173,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:171 library/dependencies.php:98
+#: library/class-tgm-plugin-activation.php:171 library/dependencies.php:96
 #, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -184,7 +184,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:172 library/dependencies.php:99
+#: library/class-tgm-plugin-activation.php:172 library/dependencies.php:97
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
@@ -197,19 +197,19 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:173 library/dependencies.php:100
+#: library/class-tgm-plugin-activation.php:173 library/dependencies.php:98
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] "Aloita lisäosan asennus"
 msgstr[1] "Aloita lisäosien asennus"
 
-#: library/class-tgm-plugin-activation.php:174 library/dependencies.php:101
+#: library/class-tgm-plugin-activation.php:174 library/dependencies.php:99
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: library/class-tgm-plugin-activation.php:175 library/dependencies.php:102
+#: library/class-tgm-plugin-activation.php:175 library/dependencies.php:100
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -218,7 +218,7 @@ msgid "Return to the dashboard"
 msgstr "Palaa Ohjauspaneeli-sivulle"
 
 #: library/class-tgm-plugin-activation.php:177
-#: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:103
+#: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:101
 msgid "Plugin activated successfully."
 msgstr ""
 
@@ -398,11 +398,11 @@ msgstr ""
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "﻿Asennetaan lisäosaa %1$s (%2$d/%3$d)"
 
-#: library/dependencies.php:91
+#: library/dependencies.php:89
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: library/dependencies.php:104
+#: library/dependencies.php:102
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
@@ -493,6 +493,10 @@ msgid ""
 "Tekstiä voi kirjoittaa myös toiselle riville! Pääset muokkaamaan kuvia ja "
 "tekstiä hallintapaneelissa: Ulkoasu &rarr; Vimpaimet "
 msgstr ""
+
+#: library/theme-default-options.php:305
+msgid "Archive"
+msgstr "Arkistot"
 
 #: library/theme-default-widgets.php:9
 msgid "Your site&#8217;s recent posts."
@@ -649,6 +653,9 @@ msgstr "Hakutulokset hakusanoilla"
 #: searchform.php:6 searchform.php:10
 msgid "Search"
 msgstr "Etsi"
+
+#~ msgid "Support the campaign"
+#~ msgstr "Tue kampanjaa"
 
 #~ msgid "Add image and text box to your site."
 #~ msgstr "Lisää kuva ja tekstilaatikko sivustolle."
