@@ -28,7 +28,6 @@ function required_plugins() {
             'slug'               => 'degrona-ehdokas', // The plugin slug (typically the folder name).
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-            'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
         //     'source'             => 'https://github.com/VihreatDeGrona/degrona-ehdokas/archive/master.zip', // The plugin source.
         //     'external_url'       => 'https://github.com/VihreatDeGrona/degrona-ehdokas', // If set, overrides default API URL and points to an external URL.
         ),
@@ -37,7 +36,6 @@ function required_plugins() {
             'slug'               => 'simple-image-widget', // The plugin slug (typically the folder name).
             'required'           => true, // If false, the plugin is only 'recommended' instead of required.
             'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
-            'force_deactivation' => true, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
         ),
     //     // This is an example of how to include a plugin pre-packaged with a theme.
     //     array(
