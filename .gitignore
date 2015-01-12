@@ -7,3 +7,5 @@ bower_components/
 js/*
 !js/custom/
 *.log
+degrona15/
+zip/
