@@ -31,8 +31,8 @@
 	<?php do_action( 'foundationPress_after_content'); ?>
 
 	</div>
+	<?php get_sidebar(); ?>
 	<?php do_action( 'degrona15_after_page_content' ); ?>
 </div>
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
