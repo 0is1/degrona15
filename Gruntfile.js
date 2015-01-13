@@ -113,8 +113,7 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.registerTask('build', ['sass', 'copy:scripts', 'copy:maps', 'uglify', 'concat']);
   grunt.registerTask('default', ['uglify', 'concat', 'copy:scripts', 'copy:maps', 'watch']);
-  grunt.registerTask('build_theme', ['clean:theme', 'copy:theme', 'zip:theme']);
+  grunt.registerTask('build_theme', ['sass', 'copy:scripts', 'copy:maps', 'uglify', 'concat', 'clean:theme', 'copy:theme', 'zip:theme']);
 
 }
