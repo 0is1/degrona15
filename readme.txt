@@ -12,7 +12,7 @@ De Gröna 15 theme is clean, modern, election-focused, and designed for election
 
 == Installation ==
 
-1. Download https://dl.dropboxusercontent.com/u/11862254/vihreat/FoundationPress.zip and https://dl.dropboxusercontent.com/u/11862254/vihreat/degrona15.zip to your computer.
+1. Download https://dl.dropboxusercontent.com/u/11862254/vihreat/FoundationPress.zip, https://dl.dropboxusercontent.com/u/11862254/vihreat/degrona15.zip and https://dl.dropboxusercontent.com/u/11862254/vihreat/degrona-ehdokas.zip to your computer.
 2. In your admin panel, go to Appearance -> Themes and click the Add New button.
 3. Click Upload and Choose File, then select the FoundationPress.zip file. Click Install Now.
 4. Click Return to Themes page.
