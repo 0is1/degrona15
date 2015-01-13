@@ -43,12 +43,8 @@ grunt
 ```
 
 ## Production version
-* Build production version of .css and .js
 
-```
-grunt build
-```
-* Copy theme files to degrona15 -folder and create install ready .zip file to zip -folder
+* Build production version of .css and .js, clean any old build files, copy theme files to degrona15 -folder and create install ready .zip file to zip -folder
 ```
 grunt build_theme
 ```
