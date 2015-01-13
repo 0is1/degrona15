@@ -20,6 +20,11 @@ module.exports = function(grunt) {
         }
       }
     },
+    clean: {
+      theme: {
+        src: ['degrona15', 'zip']
+      }
+    },
     copy: {
       theme: {
         files: [{
@@ -45,7 +50,7 @@ module.exports = function(grunt) {
         }, {
           expand: true,
           cwd: '.',
-          src: ['*.php', 'library/*.php', 'navigation/*.php', 'search/*.php', 'simple-image-widget/*.php', 'languages/*'],
+          src: ['**/*.php', 'languages/*'],
           dest: 'degrona15/'
         }]
       },
@@ -110,6 +115,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['sass', 'copy:scripts', 'copy:maps', 'uglify', 'concat']);
   grunt.registerTask('default', ['uglify', 'concat', 'copy:scripts', 'copy:maps', 'watch']);
-  grunt.registerTask('build_theme', ['copy:theme', 'zip:theme']);
+  grunt.registerTask('build_theme', ['clean:theme', 'copy:theme', 'zip:theme']);
 
 }
