@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-12 17:34+0200\n"
-"PO-Revision-Date: 2015-01-12 17:34+0200\n"
+"POT-Creation-Date: 2015-01-15 22:53+0200\n"
+"PO-Revision-Date: 2015-01-15 22:54+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: en\n"
@@ -23,96 +23,214 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-3: css\n"
 "X-Poedit-SearchPathExcluded-4: scss\n"
 
-#: 404.php:9
+#: 404.php:9 degrona15/404.php:9
 msgid "Page Not Found"
 msgstr ""
 
-#: 404.php:13
+#: 404.php:13 degrona15/404.php:13
 msgid ""
 "The page you are looking for might have been removed, had its name changed, "
 "or is temporarily unavailable."
 msgstr ""
 
-#: 404.php:15
+#: 404.php:15 degrona15/404.php:15
 msgid "Please try the following:"
 msgstr ""
 
-#: 404.php:17
+#: 404.php:17 degrona15/404.php:17
 msgid "Check your spelling"
 msgstr ""
 
-#: 404.php:18
+#: 404.php:18 degrona15/404.php:18
 #, php-format
 msgid "Return to the <a href=\"%s\">home page</a>"
 msgstr ""
 
-#: 404.php:19
+#: 404.php:19 degrona15/404.php:19
 msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
 msgstr ""
 
-#: 404.php:20
+#: 404.php:20 degrona15/404.php:20
 msgid "Try search &darr;"
 msgstr ""
 
-#: archive.php:22 index.php:29 search.php:26
+#: archive.php:22 degrona15/archive.php:22 degrona15/index.php:29
+#: degrona15/search.php:26 index.php:29 search.php:26
 msgid "&larr; Older posts"
 msgstr ""
 
-#: archive.php:23 index.php:30 search.php:27
+#: archive.php:23 degrona15/archive.php:23 degrona15/index.php:30
+#: degrona15/search.php:27 index.php:30 search.php:27
 msgid "Newer posts &rarr;"
 msgstr ""
 
-#: content-none.php:8
+#: comments.php:8
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: comments.php:9
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: comments.php:10
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:16
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:24
+#, php-format
+msgid "Reply to user %s comment"
+msgstr ""
+
+#: comments.php:38
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:43
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:53
+msgid "No Responses to"
+msgstr ""
+
+#: comments.php:53
+msgid "One Response to"
+msgstr ""
+
+#: comments.php:53
+msgid "% Responses to"
+msgstr ""
+
+#: comments.php:60
+msgid "&larr; Older comments"
+msgstr ""
+
+#: comments.php:61
+msgid "Newer comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:68
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:71
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:75
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr ""
+
+#: comments.php:75
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:75
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:78
+msgid "Name"
+msgstr ""
+
+#: comments.php:78 comments.php:82
+msgid " (required)"
+msgstr ""
+
+#: comments.php:82
+msgid "Email (will not be published)"
+msgstr ""
+
+#: comments.php:86
+msgid "Website"
+msgstr ""
+
+#: comments.php:91
+msgid "Comment"
+msgstr ""
+
+#: comments.php:94
+msgid "You can use these tags:"
+msgstr ""
+
+#: comments.php:95
+msgid "Submit Comment"
+msgstr ""
+
+#: content-none.php:8 degrona15/content-none.php:8
 msgid "Nothing Found"
 msgstr ""
 
-#: content-none.php:14
+#: content-none.php:14 degrona15/content-none.php:14
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: content-none.php:18
+#: content-none.php:18 degrona15/content-none.php:18
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
-#: content-none.php:23
+#: content-none.php:23 degrona15/content-none.php:23
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 
-#: content.php:13
+#: content.php:13 degrona15/content.php:13
 msgid "Continue reading..."
 msgstr ""
 
-#: functions.php:101
+#: degrona15/functions.php:101 functions.php:101
 msgid "http://vihreat.fi"
 msgstr ""
 
-#: functions.php:101 functions.php:102
+#: degrona15/functions.php:101 degrona15/functions.php:102 functions.php:101
+#: functions.php:102
 msgid "Vihreät De Gröna"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:161
+#: degrona15/library/dependencies.php:86
 #: library/class-tgm-plugin-activation.php:161 library/dependencies.php:86
 msgid "Install Required Plugins"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:162
+#: degrona15/library/dependencies.php:87
 #: library/class-tgm-plugin-activation.php:162 library/dependencies.php:87
 msgid "Install Plugins"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:163
+#: degrona15/library/dependencies.php:88
 #: library/class-tgm-plugin-activation.php:163 library/dependencies.php:88
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:164
 #: library/class-tgm-plugin-activation.php:164
 msgid "Something went wrong."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:165
+#: degrona15/library/dependencies.php:90
 #: library/class-tgm-plugin-activation.php:165 library/dependencies.php:90
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
@@ -120,6 +238,8 @@ msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:166
+#: degrona15/library/dependencies.php:91
 #: library/class-tgm-plugin-activation.php:166 library/dependencies.php:91
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
@@ -127,6 +247,8 @@ msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:167
+#: degrona15/library/dependencies.php:92
 #: library/class-tgm-plugin-activation.php:167 library/dependencies.php:92
 #, php-format
 msgid ""
@@ -140,6 +262,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:168
+#: degrona15/library/dependencies.php:93
 #: library/class-tgm-plugin-activation.php:168 library/dependencies.php:93
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
@@ -147,6 +271,8 @@ msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:169
+#: degrona15/library/dependencies.php:94
 #: library/class-tgm-plugin-activation.php:169 library/dependencies.php:94
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
@@ -154,6 +280,8 @@ msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:170
+#: degrona15/library/dependencies.php:95
 #: library/class-tgm-plugin-activation.php:170 library/dependencies.php:95
 #, php-format
 msgid ""
@@ -167,6 +295,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:171
+#: degrona15/library/dependencies.php:96
 #: library/class-tgm-plugin-activation.php:171 library/dependencies.php:96
 #, php-format
 msgid ""
@@ -178,6 +308,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:172
+#: degrona15/library/dependencies.php:97
 #: library/class-tgm-plugin-activation.php:172 library/dependencies.php:97
 #, php-format
 msgid ""
@@ -191,31 +323,43 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:173
+#: degrona15/library/dependencies.php:98
 #: library/class-tgm-plugin-activation.php:173 library/dependencies.php:98
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:174
+#: degrona15/library/dependencies.php:99
 #: library/class-tgm-plugin-activation.php:174 library/dependencies.php:99
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:175
+#: degrona15/library/dependencies.php:100
 #: library/class-tgm-plugin-activation.php:175 library/dependencies.php:100
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:176
 #: library/class-tgm-plugin-activation.php:176
 msgid "Return to the dashboard"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:177
+#: degrona15/library/class-tgm-plugin-activation.php:1945
+#: degrona15/library/dependencies.php:101
 #: library/class-tgm-plugin-activation.php:177
 #: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:101
 msgid "Plugin activated successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:178
+#: degrona15/library/class-tgm-plugin-activation.php:1636
 #: library/class-tgm-plugin-activation.php:178
 #: library/class-tgm-plugin-activation.php:1636
 msgid "The following plugin was activated successfully:"
@@ -223,58 +367,74 @@ msgid_plural "The following plugins were activated successfully:"
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:179
 #: library/class-tgm-plugin-activation.php:179
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:180
 #: library/class-tgm-plugin-activation.php:180
 msgid "Dismiss this notice"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:534
+#: degrona15/library/class-tgm-plugin-activation.php:2162
 #: library/class-tgm-plugin-activation.php:534
 #: library/class-tgm-plugin-activation.php:2162
 msgid "Return to the Dashboard"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1169
 #: library/class-tgm-plugin-activation.php:1169
 msgid "Private Repository"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1172
 #: library/class-tgm-plugin-activation.php:1172
 msgid "Pre-Packaged"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1177
 #: library/class-tgm-plugin-activation.php:1177
 msgid "WordPress Repository"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1180
 #: library/class-tgm-plugin-activation.php:1180
 msgid "Required"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1180
 #: library/class-tgm-plugin-activation.php:1180
 msgid "Recommended"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1183
 #: library/class-tgm-plugin-activation.php:1183
 msgid "Not Installed"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1185
 #: library/class-tgm-plugin-activation.php:1185
 msgid "Installed But Not Activated"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1290
+#: degrona15/library/class-tgm-plugin-activation.php:1398
 #: library/class-tgm-plugin-activation.php:1290
 #: library/class-tgm-plugin-activation.php:1398
 msgid "Install"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1312
+#: degrona15/library/class-tgm-plugin-activation.php:1399
 #: library/class-tgm-plugin-activation.php:1312
 #: library/class-tgm-plugin-activation.php:1399
 msgid "Activate"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1361
 #: library/class-tgm-plugin-activation.php:1361
 #, php-format
 msgid ""
@@ -282,142 +442,171 @@ msgid ""
 "Dashboard\">Return to the Dashboard</a>"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1377
 #: library/class-tgm-plugin-activation.php:1377
 msgid "Plugin"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1378
 #: library/class-tgm-plugin-activation.php:1378
 msgid "Source"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1379
 #: library/class-tgm-plugin-activation.php:1379
 msgid "Type"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1380
 #: library/class-tgm-plugin-activation.php:1380
 msgid "Status"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1928
 #: library/class-tgm-plugin-activation.php:1928
 msgid "Install package not available."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1929
 #: library/class-tgm-plugin-activation.php:1929
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1930
 #: library/class-tgm-plugin-activation.php:1930
 msgid "Unpacking the package&#8230;"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1931
 #: library/class-tgm-plugin-activation.php:1931
 msgid "Installing the plugin&#8230;"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1932
 #: library/class-tgm-plugin-activation.php:1932
 msgid "Plugin install failed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1933
 #: library/class-tgm-plugin-activation.php:1933
 msgid "Plugin installed successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1944
 #: library/class-tgm-plugin-activation.php:1944
 msgid "Plugin activation failed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2058
 #: library/class-tgm-plugin-activation.php:2058
 msgid ""
 "The installation and activation process is starting. This process may take a "
 "while on some hosts, so please be patient."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2059
 #, php-format
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2059
+#: degrona15/library/class-tgm-plugin-activation.php:2068
 #: library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2068
 msgid "Show Details"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2059
+#: degrona15/library/class-tgm-plugin-activation.php:2068
 #: library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2068
 msgid "Hide Details"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2060
 #: library/class-tgm-plugin-activation.php:2060
 msgid "All installations and activations have been completed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2061
 #: library/class-tgm-plugin-activation.php:2061
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2065
 #: library/class-tgm-plugin-activation.php:2065
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2066
 #: library/class-tgm-plugin-activation.php:2066
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2067
 #: library/class-tgm-plugin-activation.php:2067
 #, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2068
 #: library/class-tgm-plugin-activation.php:2068
 #, php-format
 msgid "%1$s installed successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2069
 #: library/class-tgm-plugin-activation.php:2069
 msgid "All installations have been completed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2070
 #: library/class-tgm-plugin-activation.php:2070
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
-#: library/dependencies.php:89
+#: degrona15/library/dependencies.php:89 library/dependencies.php:89
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: library/dependencies.php:102
+#: degrona15/library/dependencies.php:102 library/dependencies.php:102
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
-#: library/entry-meta.php:4
+#: degrona15/library/entry-meta.php:4 library/entry-meta.php:4
 #, php-format
 msgid "Posted on %s at %s."
 msgstr ""
 
-#: library/entry-meta.php:5
+#: degrona15/library/entry-meta.php:5 library/entry-meta.php:5
 msgid "Written by"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:53
 #: library/theme-default-options.php:53
 #, php-format
 msgid "Page %s"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:73
 #: library/theme-default-options.php:73
 msgid "Newsletter: Welcome to WordPress!"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:74
 #: library/theme-default-options.php:74
 msgid "newsletter-welcome-to-wordpress"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:75
 #: library/theme-default-options.php:75
 msgid ""
 "This is an example post. Posts can be used for example for blog texts. You "
@@ -426,49 +615,65 @@ msgid ""
 "can write new posts by clicking the \"Add New\"-button in Posts -page."
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:86
+#: degrona15/library/theme-default-options.php:130
 #: library/theme-default-options.php:86 library/theme-default-options.php:130
 msgid "Home"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:87
 #: library/theme-default-options.php:87
 msgid "home"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:101
+#: degrona15/library/theme-default-options.php:140
 #: library/theme-default-options.php:101 library/theme-default-options.php:140
 msgid "Blog"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:101
 #: library/theme-default-options.php:101
 msgid "blog"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:121
 #: library/theme-default-options.php:121
 msgid "The Main Menu"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:258
 #: library/theme-default-options.php:258
 msgid "Vaaliteema 1"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:259
 #: library/theme-default-options.php:259
 msgid ""
 "Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää "
 "vaaliteemasta voi lukea painamalla Read more -painiketta."
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:260
+#: degrona15/library/theme-default-options.php:270
 #: library/theme-default-options.php:260 library/theme-default-options.php:270
 msgid "vihreat.fi"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:261
+#: degrona15/library/theme-default-options.php:271
+#: degrona15/library/theme-default-widgets.php:67
 #: library/theme-default-options.php:261 library/theme-default-options.php:271
 #: library/theme-default-widgets.php:67
 msgid "Read more"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:266
 #: library/theme-default-options.php:266
 msgid "Vaaliteema 2"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:267
 #: library/theme-default-options.php:267
 msgid ""
 "Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin "
@@ -478,38 +683,47 @@ msgid ""
 "tekstiä hallintapaneelissa: Ulkoasu &rarr; Vimpaimet "
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:305
 #: library/theme-default-options.php:305
 msgid "Archive"
 msgstr ""
 
+#: degrona15/library/theme-default-widgets.php:9
 #: library/theme-default-widgets.php:9
 msgid "Your site&#8217;s recent posts."
 msgstr ""
 
+#: degrona15/library/theme-default-widgets.php:10
 #: library/theme-default-widgets.php:10
 msgid "Recent Posts"
 msgstr ""
 
+#: degrona15/library/theme-default-widgets.php:106
 #: library/theme-default-widgets.php:106
 msgid "Number of posts to show:"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:20
 #: library/theme-help-and-settings-page.php:20
 msgid "About theme"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:21
 #: library/theme-help-and-settings-page.php:21
 msgid "DeGröna 15"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:51
 #: library/theme-help-and-settings-page.php:51
 msgid "Information about DeGröna 15-theme "
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:53
 #: library/theme-help-and-settings-page.php:53
 msgid "DeGröna15-theme is designed especially for election candidates."
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:55
 #: library/theme-help-and-settings-page.php:55
 msgid ""
 "You can easily add your personal information, image, vote number and "
@@ -517,14 +731,17 @@ msgid ""
 "page=de_grona_ehdokas_settings\">Candidate'15 -page</a> "
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:61
 #: library/theme-help-and-settings-page.php:61
 msgid "DeGröna 15 -theme"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:64
 #: library/theme-help-and-settings-page.php:64
 msgid "Focus is in important things"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:65
 #: library/theme-help-and-settings-page.php:65
 msgid ""
 "Theme is designed for election candidates. It is simple and fits in many "
@@ -532,6 +749,7 @@ msgid ""
 "points."
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:67
 #: library/theme-help-and-settings-page.php:67
 msgid ""
 "Donate and \"Get Involved\" -pages encourage visitors to act. You can add "
@@ -540,6 +758,7 @@ msgid ""
 "Info -page</a>"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:69
 #: library/theme-help-and-settings-page.php:69
 msgid ""
 "We installed some cool widgets to your site already! You can easily remove "
@@ -547,75 +766,86 @@ msgid ""
 "in <a href=\"widgets.php\">Widgets -page</a>."
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:71
 #: library/theme-help-and-settings-page.php:71
 msgid ""
 "Edit theme settings <a href=\"themes.php?page=degrona15-theme-settings-page"
 "\">here.</a>"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:81
 #: library/theme-help-and-settings-page.php:81
 msgid "Return to Updates"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:81
 #: library/theme-help-and-settings-page.php:81
 msgid "Return to Dashboard &rarr; Updates"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:84
 #: library/theme-help-and-settings-page.php:84
 msgid "Go to Dashboard &rarr; Home"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:84
 #: library/theme-help-and-settings-page.php:84
 msgid "Go to Dashboard"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:98
 #: library/theme-help-and-settings-page.php:98
 msgid "DeGröna 15-theme settings"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:99
 #: library/theme-help-and-settings-page.php:99
 msgid "Not implemented yet, come back later!"
 msgstr ""
 
+#: degrona15/library/theme-help-and-settings-page.php:101
 #: library/theme-help-and-settings-page.php:101
 msgid ""
 "You can already edit many settings in <a href=\"admin.php?"
 "page=de_grona_ehdokas_settings\">Candidate'15 -page</a>"
 msgstr ""
 
-#: library/widgets.php:6
+#: degrona15/library/widgets.php:6 library/widgets.php:6
 msgid "Frontpage widgets"
 msgstr ""
 
-#: library/widgets.php:7
+#: degrona15/library/widgets.php:7 library/widgets.php:7
 msgid "Drag frontpage widgets to this container"
 msgstr ""
 
-#: library/widgets.php:16
+#: degrona15/library/widgets.php:16 library/widgets.php:16
 msgid "Sidebar widgets"
 msgstr ""
 
-#: library/widgets.php:17
+#: degrona15/library/widgets.php:17 library/widgets.php:17
 msgid "Drag widgets to this sidebar container."
 msgstr ""
 
-#: library/widgets.php:26
+#: degrona15/library/widgets.php:26 library/widgets.php:26
 msgid "Footer widgets"
 msgstr ""
 
-#: library/widgets.php:27
+#: degrona15/library/widgets.php:27 library/widgets.php:27
 msgid "Drag widgets to this footer container"
 msgstr ""
 
+#: degrona15/page-full.php:19 degrona15/page.php:18 degrona15/single.php:35
 #: page-full.php:19 page.php:18 single.php:35
 msgid "Pages:"
 msgstr ""
 
-#: search.php:8
+#: degrona15/search.php:8 search.php:8
 msgid "Search Results for"
 msgstr ""
 
-#: search/navigation-search-mobile.php:4 search/navigation-search.php:4
-#: searchform.php:6 searchform.php:10
+#: degrona15/search/navigation-search-mobile.php:4
+#: degrona15/search/navigation-search.php:4 degrona15/searchform.php:6
+#: degrona15/searchform.php:10 search/navigation-search-mobile.php:4
+#: search/navigation-search.php:4 searchform.php:6 searchform.php:10
 msgid "Search"
 msgstr ""

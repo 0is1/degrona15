@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-12 17:33+0200\n"
-"PO-Revision-Date: 2015-01-12 17:33+0200\n"
+"POT-Creation-Date: 2015-01-15 22:53+0200\n"
+"PO-Revision-Date: 2015-01-15 22:54+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -23,11 +23,11 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-3: scss\n"
 "X-Poedit-SearchPathExcluded-4: css\n"
 
-#: 404.php:9
+#: 404.php:9 degrona15/404.php:9
 msgid "Page Not Found"
 msgstr "﻿Sivua ei löytynyt"
 
-#: 404.php:13
+#: 404.php:13 degrona15/404.php:13
 msgid ""
 "The page you are looking for might have been removed, had its name changed, "
 "or is temporarily unavailable."
@@ -35,41 +35,150 @@ msgstr ""
 "Sivu, jota etsit saattaa olla poistettu, sen nimi voi olla muuttunut tai se "
 "voi olla väliaikaisesti tavoittamattomissa."
 
-#: 404.php:15
+#: 404.php:15 degrona15/404.php:15
 msgid "Please try the following:"
 msgstr "Voit kokeilla seuraavia:"
 
-#: 404.php:17
+#: 404.php:17 degrona15/404.php:17
 msgid "Check your spelling"
 msgstr "﻿Tarkista oikeinkirjoitus"
 
-#: 404.php:18
+#: 404.php:18 degrona15/404.php:18
 #, php-format
 msgid "Return to the <a href=\"%s\">home page</a>"
 msgstr "﻿Palaa <a href=\"%s\">etusivulle</a>"
 
-#: 404.php:19
+#: 404.php:19 degrona15/404.php:19
 msgid "Click the <a href=\"javascript:history.back()\">Back</a> button"
 msgstr ""
 "﻿Napsauta <a href=\"javascript:history.back()\">Takaisin</a> -painiketta"
 
-#: 404.php:20
+#: 404.php:20 degrona15/404.php:20
 msgid "Try search &darr;"
 msgstr "Kokeile etsiä &darr;"
 
-#: archive.php:22 index.php:29 search.php:26
+#: archive.php:22 degrona15/archive.php:22 degrona15/index.php:29
+#: degrona15/search.php:26 index.php:29 search.php:26
 msgid "&larr; Older posts"
 msgstr "﻿&larr; Vanhemmat artikkelit"
 
-#: archive.php:23 index.php:30 search.php:27
+#: archive.php:23 degrona15/archive.php:23 degrona15/index.php:30
+#: degrona15/search.php:27 index.php:30 search.php:27
 msgid "Newer posts &rarr;"
 msgstr "﻿Uudemmat artikkelit &rarr;"
 
-#: content-none.php:8
+#: comments.php:8
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: comments.php:9
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: comments.php:10
+msgid "(Edit)"
+msgstr "(Muokkaa)"
+
+#: comments.php:16
+msgid "Your comment is awaiting moderation."
+msgstr "Kommenttisi odottaa hyväksyntää."
+
+#: comments.php:24
+#, php-format
+msgid "Reply to user %s comment"
+msgstr "Vastaus käyttäjän %s kommenttiin"
+
+#: comments.php:38
+msgid "Please do not load this page directly. Thanks!"
+msgstr "﻿Älä lataa tätä sivua suoraan. Kiitos!"
+
+#: comments.php:43
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Tämä kirjoitus on salasanasuojattu. Syötä salasana nähdäksesi kommentit."
+
+#: comments.php:53
+msgid "No Responses to"
+msgstr "Ei kommentteja tekstiin"
+
+#: comments.php:53
+msgid "One Response to"
+msgstr "Yksi kommentti tekstiin"
+
+#: comments.php:53
+msgid "% Responses to"
+msgstr "% kommenttia tekstiin"
+
+#: comments.php:60
+msgid "&larr; Older comments"
+msgstr "﻿&larr; Vanhemmat kommentit"
+
+#: comments.php:61
+msgid "Newer comments &rarr;"
+msgstr "﻿Uudemmat kommentit &rarr;"
+
+#: comments.php:68
+msgid "Leave a Reply"
+msgstr "Lisää kommentti"
+
+#: comments.php:68
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Vastaa käyttäjän %s kommenttiin"
+
+#: comments.php:71
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "﻿Sinun pitää <a href=\"%s\">kirjautua</a> kommentointia varten."
+
+#: comments.php:75
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "﻿Kirjautuneena tunnuksella <a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: comments.php:75
+msgid "Log out of this account"
+msgstr "﻿Kirjaudu ulos"
+
+#: comments.php:75
+msgid "Log out &raquo;"
+msgstr "﻿Kirjaudu ulos &raquo;"
+
+#: comments.php:78
+msgid "Name"
+msgstr "﻿Nimi"
+
+#: comments.php:78 comments.php:82
+msgid " (required)"
+msgstr " ﻿(pakollinen)"
+
+#: comments.php:82
+msgid "Email (will not be published)"
+msgstr "﻿Sähköposti (ei julkaista)"
+
+#: comments.php:86
+msgid "Website"
+msgstr "Kotisivusi"
+
+#: comments.php:91
+msgid "Comment"
+msgstr "﻿Kommentti"
+
+#: comments.php:94
+msgid "You can use these tags:"
+msgstr "﻿Voit käyttää HTML-tageja ja lyhytkoodeja."
+
+#: comments.php:95
+msgid "Submit Comment"
+msgstr "﻿Lähetä kommentti"
+
+#: content-none.php:8 degrona15/content-none.php:8
 msgid "Nothing Found"
 msgstr "﻿Mitään ei löytynyt"
 
-#: content-none.php:14
+#: content-none.php:14 degrona15/content-none.php:14
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
@@ -77,48 +186,58 @@ msgstr ""
 "﻿Valmis julkaisemaan ensimmäinen artikkeli? <a href=\"%1$s\">Aloita tästä</"
 "a> ."
 
-#: content-none.php:18
+#: content-none.php:18 degrona15/content-none.php:18
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 "Emme löytäneet hakuasi vastaavaa sisältöä. Yritä uudelleen eri hakutermeillä."
 
-#: content-none.php:23
+#: content-none.php:23 degrona15/content-none.php:23
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr "Näyttää siltä, ettemme löydä, mitä etsit. Ehkä haku auttaa?"
 
-#: content.php:13
+#: content.php:13 degrona15/content.php:13
 msgid "Continue reading..."
 msgstr "Lue lisää..."
 
-#: functions.php:101
+#: degrona15/functions.php:101 functions.php:101
 msgid "http://vihreat.fi"
 msgstr "http://vihreat.fi"
 
-#: functions.php:101 functions.php:102
+#: degrona15/functions.php:101 degrona15/functions.php:102 functions.php:101
+#: functions.php:102
 msgid "Vihreät De Gröna"
 msgstr "Vihreät De Gröna"
 
+#: degrona15/library/class-tgm-plugin-activation.php:161
+#: degrona15/library/dependencies.php:86
 #: library/class-tgm-plugin-activation.php:161 library/dependencies.php:86
 msgid "Install Required Plugins"
 msgstr "Asenna vaaditut lisäosat"
 
+#: degrona15/library/class-tgm-plugin-activation.php:162
+#: degrona15/library/dependencies.php:87
 #: library/class-tgm-plugin-activation.php:162 library/dependencies.php:87
 msgid "Install Plugins"
 msgstr "Asenna lisäosat"
 
+#: degrona15/library/class-tgm-plugin-activation.php:163
+#: degrona15/library/dependencies.php:88
 #: library/class-tgm-plugin-activation.php:163 library/dependencies.php:88
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "Asennettaan %s lisäosaa"
 
+#: degrona15/library/class-tgm-plugin-activation.php:164
 #: library/class-tgm-plugin-activation.php:164
 msgid "Something went wrong."
 msgstr "﻿Jotain meni pieleen."
 
+#: degrona15/library/class-tgm-plugin-activation.php:165
+#: degrona15/library/dependencies.php:90
 #: library/class-tgm-plugin-activation.php:165 library/dependencies.php:90
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
@@ -126,6 +245,8 @@ msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] "Tämä teema vaatii seuraavan lisäosan: %1$s."
 msgstr[1] "Tämä teema vaatii seuraavat lisäosat: %1$s."
 
+#: degrona15/library/class-tgm-plugin-activation.php:166
+#: degrona15/library/dependencies.php:91
 #: library/class-tgm-plugin-activation.php:166 library/dependencies.php:91
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
@@ -133,6 +254,8 @@ msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] "Tämä teema suosittelee seuraavaa lisäosaa: %1$s."
 msgstr[1] "Tämä teema suosittelee seuraavia lisäosia: %1$s."
 
+#: degrona15/library/class-tgm-plugin-activation.php:167
+#: degrona15/library/dependencies.php:92
 #: library/class-tgm-plugin-activation.php:167 library/dependencies.php:92
 #, php-format
 msgid ""
@@ -146,6 +269,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:168
+#: degrona15/library/dependencies.php:93
 #: library/class-tgm-plugin-activation.php:168 library/dependencies.php:93
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
@@ -153,6 +278,8 @@ msgid_plural "The following required plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:169
+#: degrona15/library/dependencies.php:94
 #: library/class-tgm-plugin-activation.php:169 library/dependencies.php:94
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
@@ -160,6 +287,8 @@ msgid_plural "The following recommended plugins are currently inactive: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:170
+#: degrona15/library/dependencies.php:95
 #: library/class-tgm-plugin-activation.php:170 library/dependencies.php:95
 #, php-format
 msgid ""
@@ -173,6 +302,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:171
+#: degrona15/library/dependencies.php:96
 #: library/class-tgm-plugin-activation.php:171 library/dependencies.php:96
 #, php-format
 msgid ""
@@ -184,6 +315,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:172
+#: degrona15/library/dependencies.php:97
 #: library/class-tgm-plugin-activation.php:172 library/dependencies.php:97
 #, php-format
 msgid ""
@@ -197,31 +330,43 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:173
+#: degrona15/library/dependencies.php:98
 #: library/class-tgm-plugin-activation.php:173 library/dependencies.php:98
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] "Aloita lisäosan asennus"
 msgstr[1] "Aloita lisäosien asennus"
 
+#: degrona15/library/class-tgm-plugin-activation.php:174
+#: degrona15/library/dependencies.php:99
 #: library/class-tgm-plugin-activation.php:174 library/dependencies.php:99
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:175
+#: degrona15/library/dependencies.php:100
 #: library/class-tgm-plugin-activation.php:175 library/dependencies.php:100
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:176
 #: library/class-tgm-plugin-activation.php:176
 msgid "Return to the dashboard"
 msgstr "Palaa Ohjauspaneeli-sivulle"
 
+#: degrona15/library/class-tgm-plugin-activation.php:177
+#: degrona15/library/class-tgm-plugin-activation.php:1945
+#: degrona15/library/dependencies.php:101
 #: library/class-tgm-plugin-activation.php:177
 #: library/class-tgm-plugin-activation.php:1945 library/dependencies.php:101
 msgid "Plugin activated successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:178
+#: degrona15/library/class-tgm-plugin-activation.php:1636
 #: library/class-tgm-plugin-activation.php:178
 #: library/class-tgm-plugin-activation.php:1636
 msgid "The following plugin was activated successfully:"
@@ -229,58 +374,74 @@ msgid_plural "The following plugins were activated successfully:"
 msgstr[0] "﻿Seuraavan lisäosan aktivointi onnistui:"
 msgstr[1] "Seuraavien lisäosien aktivointi onnistui:"
 
+#: degrona15/library/class-tgm-plugin-activation.php:179
 #: library/class-tgm-plugin-activation.php:179
 #, php-format
 msgid "All plugins installed and activated successfully. %1$s"
 msgstr "﻿Kaikki lisäosat asennettiin ja aktivoitiin onnistuneesti. %1$s"
 
+#: degrona15/library/class-tgm-plugin-activation.php:180
 #: library/class-tgm-plugin-activation.php:180
 msgid "Dismiss this notice"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:534
+#: degrona15/library/class-tgm-plugin-activation.php:2162
 #: library/class-tgm-plugin-activation.php:534
 #: library/class-tgm-plugin-activation.php:2162
 msgid "Return to the Dashboard"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1169
 #: library/class-tgm-plugin-activation.php:1169
 msgid "Private Repository"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1172
 #: library/class-tgm-plugin-activation.php:1172
 msgid "Pre-Packaged"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1177
 #: library/class-tgm-plugin-activation.php:1177
 msgid "WordPress Repository"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1180
 #: library/class-tgm-plugin-activation.php:1180
 msgid "Required"
 msgstr "Vaadittu"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1180
 #: library/class-tgm-plugin-activation.php:1180
 msgid "Recommended"
 msgstr "﻿Suositeltu"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1183
 #: library/class-tgm-plugin-activation.php:1183
 msgid "Not Installed"
 msgstr "﻿Ei asennettu"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1185
 #: library/class-tgm-plugin-activation.php:1185
 msgid "Installed But Not Activated"
 msgstr "Asennettu, mutta ei aktivoitu"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1290
+#: degrona15/library/class-tgm-plugin-activation.php:1398
 #: library/class-tgm-plugin-activation.php:1290
 #: library/class-tgm-plugin-activation.php:1398
 msgid "Install"
 msgstr "﻿Asenna"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1312
+#: degrona15/library/class-tgm-plugin-activation.php:1399
 #: library/class-tgm-plugin-activation.php:1312
 #: library/class-tgm-plugin-activation.php:1399
 msgid "Activate"
 msgstr "﻿Aktivoi"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1361
 #: library/class-tgm-plugin-activation.php:1361
 #, php-format
 msgid ""
@@ -290,52 +451,64 @@ msgstr ""
 "﻿Ei asennettavia tai aktivoitavia lisäosia. <a href=\"%1$s\" title=\"Palaa "
 "Ohjauspaneeli-sivulle\">Palaa Ohjauspaneeli-sivulle</a>"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1377
 #: library/class-tgm-plugin-activation.php:1377
 msgid "Plugin"
 msgstr "Lisäosa"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1378
 #: library/class-tgm-plugin-activation.php:1378
 msgid "Source"
 msgstr "﻿Lähde"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1379
 #: library/class-tgm-plugin-activation.php:1379
 msgid "Type"
 msgstr "﻿Tyyppi"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1380
 #: library/class-tgm-plugin-activation.php:1380
 msgid "Status"
 msgstr "﻿Tila"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1928
 #: library/class-tgm-plugin-activation.php:1928
 msgid "Install package not available."
 msgstr "﻿Asennuspaketti ei ole käytettävissä."
 
+#: degrona15/library/class-tgm-plugin-activation.php:1929
 #: library/class-tgm-plugin-activation.php:1929
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr ""
 "﻿Ladataan asennuspakettia lähteestä  <span class=\"code\">%s</span>&#8230;"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1930
 #: library/class-tgm-plugin-activation.php:1930
 msgid "Unpacking the package&#8230;"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1931
 #: library/class-tgm-plugin-activation.php:1931
 msgid "Installing the plugin&#8230;"
 msgstr "Asennetaan lisäosaa&#8230;"
 
+#: degrona15/library/class-tgm-plugin-activation.php:1932
 #: library/class-tgm-plugin-activation.php:1932
 msgid "Plugin install failed."
 msgstr "Lisäosan asennus epäonnistui."
 
+#: degrona15/library/class-tgm-plugin-activation.php:1933
 #: library/class-tgm-plugin-activation.php:1933
 msgid "Plugin installed successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:1944
 #: library/class-tgm-plugin-activation.php:1944
 msgid "Plugin activation failed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2058
 #: library/class-tgm-plugin-activation.php:2058
 msgid ""
 "The installation and activation process is starting. This process may take a "
@@ -344,91 +517,108 @@ msgstr ""
 "﻿Asennus ja aktivointi alkaa. Tämä prosessi voi kestää kauan, joten ole "
 "kärsivällinen."
 
+#: degrona15/library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2059
 #, php-format
 msgid "%1$s installed and activated successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2059
+#: degrona15/library/class-tgm-plugin-activation.php:2068
 #: library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2068
 msgid "Show Details"
 msgstr "﻿Näytä yksityiskohdat"
 
+#: degrona15/library/class-tgm-plugin-activation.php:2059
+#: degrona15/library/class-tgm-plugin-activation.php:2068
 #: library/class-tgm-plugin-activation.php:2059
 #: library/class-tgm-plugin-activation.php:2068
 msgid "Hide Details"
 msgstr "﻿Kätke yksityiskohdat"
 
+#: degrona15/library/class-tgm-plugin-activation.php:2060
 #: library/class-tgm-plugin-activation.php:2060
 msgid "All installations and activations have been completed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2061
 #: library/class-tgm-plugin-activation.php:2061
 #, php-format
 msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2065
 #: library/class-tgm-plugin-activation.php:2065
 msgid ""
 "The installation process is starting. This process may take a while on some "
 "hosts, so please be patient."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2066
 #: library/class-tgm-plugin-activation.php:2066
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2067
 #: library/class-tgm-plugin-activation.php:2067
 #, php-format
 msgid "The installation of %1$s failed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2068
 #: library/class-tgm-plugin-activation.php:2068
 #, php-format
 msgid "%1$s installed successfully."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2069
 #: library/class-tgm-plugin-activation.php:2069
 msgid "All installations have been completed."
 msgstr ""
 
+#: degrona15/library/class-tgm-plugin-activation.php:2070
 #: library/class-tgm-plugin-activation.php:2070
 #, php-format
 msgid "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr "﻿Asennetaan lisäosaa %1$s (%2$d/%3$d)"
 
-#: library/dependencies.php:89
+#: degrona15/library/dependencies.php:89 library/dependencies.php:89
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
-#: library/dependencies.php:102
+#: degrona15/library/dependencies.php:102 library/dependencies.php:102
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
-#: library/entry-meta.php:4
+#: degrona15/library/entry-meta.php:4 library/entry-meta.php:4
 #, php-format
 msgid "Posted on %s at %s."
 msgstr "Julkaistu %s %s."
 
-#: library/entry-meta.php:5
+#: degrona15/library/entry-meta.php:5 library/entry-meta.php:5
 msgid "Written by"
 msgstr "Kirjoittaja"
 
+#: degrona15/library/theme-default-options.php:53
 #: library/theme-default-options.php:53
 #, php-format
 msgid "Page %s"
 msgstr "﻿Sivu %s"
 
+#: degrona15/library/theme-default-options.php:73
 #: library/theme-default-options.php:73
 msgid "Newsletter: Welcome to WordPress!"
 msgstr "Tiedote: Tervetuloa käyttämään WordPressiä!"
 
+#: degrona15/library/theme-default-options.php:74
 #: library/theme-default-options.php:74
 msgid "newsletter-welcome-to-wordpress"
 msgstr "tiedote-tervetuloa-kayttamaan-wordpressia"
 
+#: degrona15/library/theme-default-options.php:75
 #: library/theme-default-options.php:75
 msgid ""
 "This is an example post. Posts can be used for example for blog texts. You "
@@ -442,49 +632,65 @@ msgstr ""
 "käyttämään WordPressiä!\"-artikkeli ja siirrä se roskakoriin. Voit "
 "kirjoittaa uusia artikkeleita valitsemalla \"Lisää uusi\" Artikkelit-sivulla."
 
+#: degrona15/library/theme-default-options.php:86
+#: degrona15/library/theme-default-options.php:130
 #: library/theme-default-options.php:86 library/theme-default-options.php:130
 msgid "Home"
 msgstr "Etusivu"
 
+#: degrona15/library/theme-default-options.php:87
 #: library/theme-default-options.php:87
 msgid "home"
 msgstr "etusivu"
 
+#: degrona15/library/theme-default-options.php:101
+#: degrona15/library/theme-default-options.php:140
 #: library/theme-default-options.php:101 library/theme-default-options.php:140
 msgid "Blog"
 msgstr "Blogi"
 
+#: degrona15/library/theme-default-options.php:101
 #: library/theme-default-options.php:101
 msgid "blog"
 msgstr "blogi"
 
+#: degrona15/library/theme-default-options.php:121
 #: library/theme-default-options.php:121
 msgid "The Main Menu"
 msgstr "Päävalikko"
 
+#: degrona15/library/theme-default-options.php:258
 #: library/theme-default-options.php:258
 msgid "Vaaliteema 1"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:259
 #: library/theme-default-options.php:259
 msgid ""
 "Tässä esittelen vaaliteemaa numero yksi. Kylläpä se onkin hieno teema! Lisää "
 "vaaliteemasta voi lukea painamalla Read more -painiketta."
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:260
+#: degrona15/library/theme-default-options.php:270
 #: library/theme-default-options.php:260 library/theme-default-options.php:270
 msgid "vihreat.fi"
 msgstr "vihreat.fi"
 
+#: degrona15/library/theme-default-options.php:261
+#: degrona15/library/theme-default-options.php:271
+#: degrona15/library/theme-default-widgets.php:67
 #: library/theme-default-options.php:261 library/theme-default-options.php:271
 #: library/theme-default-widgets.php:67
 msgid "Read more"
 msgstr "﻿Lue lisää"
 
+#: degrona15/library/theme-default-options.php:266
 #: library/theme-default-options.php:266
 msgid "Vaaliteema 2"
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:267
 #: library/theme-default-options.php:267
 msgid ""
 "Tässä on toinen vaaliteema! Se on vähintään yhtä mainio, kuin "
@@ -494,38 +700,47 @@ msgid ""
 "tekstiä hallintapaneelissa: Ulkoasu &rarr; Vimpaimet "
 msgstr ""
 
+#: degrona15/library/theme-default-options.php:305
 #: library/theme-default-options.php:305
 msgid "Archive"
 msgstr "Arkistot"
 
+#: degrona15/library/theme-default-widgets.php:9
 #: library/theme-default-widgets.php:9
 msgid "Your site&#8217;s recent posts."
 msgstr "Sivustosi uusimmat artikkelit."
 
+#: degrona15/library/theme-default-widgets.php:10
 #: library/theme-default-widgets.php:10
 msgid "Recent Posts"
 msgstr "Uusimmat artikkelit"
 
+#: degrona15/library/theme-default-widgets.php:106
 #: library/theme-default-widgets.php:106
 msgid "Number of posts to show:"
 msgstr "Näytettävien artikkelien määrä:"
 
+#: degrona15/library/theme-help-and-settings-page.php:20
 #: library/theme-help-and-settings-page.php:20
 msgid "About theme"
 msgstr "Tietoja teemasta"
 
+#: degrona15/library/theme-help-and-settings-page.php:21
 #: library/theme-help-and-settings-page.php:21
 msgid "DeGröna 15"
 msgstr "DeGröna 15"
 
+#: degrona15/library/theme-help-and-settings-page.php:51
 #: library/theme-help-and-settings-page.php:51
 msgid "Information about DeGröna 15-theme "
 msgstr "Tietoja DeGröna 15-teemasta"
 
+#: degrona15/library/theme-help-and-settings-page.php:53
 #: library/theme-help-and-settings-page.php:53
 msgid "DeGröna15-theme is designed especially for election candidates."
 msgstr "DeGröna15-teema on suunniteltu erityisesti vaaliehdokkaille."
 
+#: degrona15/library/theme-help-and-settings-page.php:55
 #: library/theme-help-and-settings-page.php:55
 msgid ""
 "You can easily add your personal information, image, vote number and "
@@ -536,14 +751,17 @@ msgstr ""
 "taustakuvan (sekä paljon muuta) <a href=\"admin.php?"
 "page=de_grona_ehdokas_settings\">Ehdokas'15 -sivulla</a>"
 
+#: degrona15/library/theme-help-and-settings-page.php:61
 #: library/theme-help-and-settings-page.php:61
 msgid "DeGröna 15 -theme"
 msgstr "﻿DeGröna 15 -teema"
 
+#: degrona15/library/theme-help-and-settings-page.php:64
 #: library/theme-help-and-settings-page.php:64
 msgid "Focus is in important things"
 msgstr "Huomio on tärkeissä asioissa"
 
+#: degrona15/library/theme-help-and-settings-page.php:65
 #: library/theme-help-and-settings-page.php:65
 msgid ""
 "Theme is designed for election candidates. It is simple and fits in many "
@@ -553,6 +771,7 @@ msgstr ""
 "Teema on ehdokkaan kampanjointiin suunniteltu yksinkertainen ja toimiva "
 "kokonaisuus, joka ohjaa lukijan huomion suoraan kampanjan ydinasioihin."
 
+#: degrona15/library/theme-help-and-settings-page.php:67
 #: library/theme-help-and-settings-page.php:67
 msgid ""
 "Donate and \"Get Involved\" -pages encourage visitors to act. You can add "
@@ -565,6 +784,7 @@ msgstr ""
 "page=de_grona_ehdokas_settings&tab=other_info\">Ehdokas'15 &rarr; Muut "
 "tiedot -sivulla</a>"
 
+#: degrona15/library/theme-help-and-settings-page.php:69
 #: library/theme-help-and-settings-page.php:69
 msgid ""
 "We installed some cool widgets to your site already! You can easily remove "
@@ -575,6 +795,7 @@ msgstr ""
 "ja muokata tai lisätä uusia helposti (etusivulle, sivupalkkiin ja sivuston "
 "alaosaan) <a href=\"widgets.php\">Vimpaimet -sivulla</a>."
 
+#: degrona15/library/theme-help-and-settings-page.php:71
 #: library/theme-help-and-settings-page.php:71
 msgid ""
 "Edit theme settings <a href=\"themes.php?page=degrona15-theme-settings-page"
@@ -583,30 +804,37 @@ msgstr ""
 "Siirry muokkaamaan teeman asetuksia <a href=\"themes.php?page=degrona15-"
 "theme-settings-page\">tästä.</a>"
 
+#: degrona15/library/theme-help-and-settings-page.php:81
 #: library/theme-help-and-settings-page.php:81
 msgid "Return to Updates"
 msgstr "Palaa Päivitykset-sivulle"
 
+#: degrona15/library/theme-help-and-settings-page.php:81
 #: library/theme-help-and-settings-page.php:81
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Siirry Ohjauspaneeli-sivulle &rarr; Päivitykset"
 
+#: degrona15/library/theme-help-and-settings-page.php:84
 #: library/theme-help-and-settings-page.php:84
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Siirry Ohjauspaneeli-sivulle &rarr; Etusivu"
 
+#: degrona15/library/theme-help-and-settings-page.php:84
 #: library/theme-help-and-settings-page.php:84
 msgid "Go to Dashboard"
 msgstr "Siirry Ohjauspaneeli-sivulle"
 
+#: degrona15/library/theme-help-and-settings-page.php:98
 #: library/theme-help-and-settings-page.php:98
 msgid "DeGröna 15-theme settings"
 msgstr "DeGröna 15-teeman asetukset"
 
+#: degrona15/library/theme-help-and-settings-page.php:99
 #: library/theme-help-and-settings-page.php:99
 msgid "Not implemented yet, come back later!"
 msgstr "Ei vielä toiminnassa, tule takaisin myöhemmin!"
 
+#: degrona15/library/theme-help-and-settings-page.php:101
 #: library/theme-help-and-settings-page.php:101
 msgid ""
 "You can already edit many settings in <a href=\"admin.php?"
@@ -615,42 +843,45 @@ msgstr ""
 "Voit jo muokata monia asetuksia <a href=\"admin.php?"
 "page=de_grona_ehdokas_settings\">Ehdokas'15 -sivulla</a>"
 
-#: library/widgets.php:6
+#: degrona15/library/widgets.php:6 library/widgets.php:6
 msgid "Frontpage widgets"
 msgstr "Etusivun vimpaimet"
 
-#: library/widgets.php:7
+#: degrona15/library/widgets.php:7 library/widgets.php:7
 msgid "Drag frontpage widgets to this container"
 msgstr "Raahaa tähän vimpaimia, jotka haluat näkyvän sivuston etusivulla"
 
-#: library/widgets.php:16
+#: degrona15/library/widgets.php:16 library/widgets.php:16
 msgid "Sidebar widgets"
 msgstr "Sivupalkin vimpaimet"
 
-#: library/widgets.php:17
+#: degrona15/library/widgets.php:17 library/widgets.php:17
 msgid "Drag widgets to this sidebar container."
 msgstr ""
 "Raahaa tähän vimpaimia, jotka haluat näkyvän sivuston blogikirjoitusten "
 "sivupalkissa"
 
-#: library/widgets.php:26
+#: degrona15/library/widgets.php:26 library/widgets.php:26
 msgid "Footer widgets"
 msgstr "Alaosan vimpaimet"
 
-#: library/widgets.php:27
+#: degrona15/library/widgets.php:27 library/widgets.php:27
 msgid "Drag widgets to this footer container"
 msgstr "Raahaa tähän vimpaimia, jotka haluat näkyvän sivuston alaosassa"
 
+#: degrona15/page-full.php:19 degrona15/page.php:18 degrona15/single.php:35
 #: page-full.php:19 page.php:18 single.php:35
 msgid "Pages:"
 msgstr "Sivut:"
 
-#: search.php:8
+#: degrona15/search.php:8 search.php:8
 msgid "Search Results for"
 msgstr "Hakutulokset hakusanoilla"
 
-#: search/navigation-search-mobile.php:4 search/navigation-search.php:4
-#: searchform.php:6 searchform.php:10
+#: degrona15/search/navigation-search-mobile.php:4
+#: degrona15/search/navigation-search.php:4 degrona15/searchform.php:6
+#: degrona15/searchform.php:10 search/navigation-search-mobile.php:4
+#: search/navigation-search.php:4 searchform.php:6 searchform.php:10
 msgid "Search"
 msgstr "Etsi"
 
