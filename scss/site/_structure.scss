@@ -84,6 +84,9 @@ img.alignright {
 .button a{
 	color: $white;
 }
+i[class^="fi"] {
+	margin-right: 0.25rem;
+}
 /**
  * 2.0 Typography
  * ----------------------------------------------------------------------------
@@ -272,7 +275,25 @@ footer.row {
 	 */
 
 	// Insert styles here
-
+	.comment-wrap{
+		border-top: 1px solid $jet;
+		padding-top: 1rem;
+		.reply-to-comment{
+			display: block;
+		}
+		h3{
+			font-size: 1.375rem;
+		}
+		.author-meta {
+			font-size: 0.9rem;
+			margin-top: .5rem;
+		}
+		.comment-content{
+			span{
+				font-size: 0.8rem;
+			}
+		}
+	}
 
 	/**
 	 * 4.5 Lists
