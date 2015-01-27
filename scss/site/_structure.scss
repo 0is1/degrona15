@@ -168,14 +168,6 @@ body, h1, h2, h3, h4, h5, h6{
 
 // End of Foundation overriders
 
-// A more subtle background color for the active menu item
-.top-bar-section li.active:not(.has-form) a:not(.button)  {
-	// background: #272727;
-}
-.top-bar-section li.active:not(.has-form) a:hover:not(.button) {
-	// background: #202020;
-}
-
 footer.row {
 	background-color: $vihreat_de_grona_green;
 	padding: rem-calc(20);

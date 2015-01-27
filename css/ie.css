@@ -1,0 +1,12 @@
+.tab-bar, .left-off-canvas-menu, li.divider{
+  display: none !important;
+}
+.top-bar h1, .top-bar-section ul{
+  display: inline;
+}
+.top-bar-container{
+  overflow: hidden;
+}
+.contain-to-grid, .top-bar, .top-bar-section .top-bar-menu li, .top-bar-section ul li, .top-bar-section .top-bar-menu li.active a, .top-bar-section .top-bar-menu li a {
+  background: #61bf1a;
+}
