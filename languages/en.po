@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-15 22:53+0200\n"
-"PO-Revision-Date: 2015-01-15 22:54+0200\n"
+"POT-Creation-Date: 2015-01-27 19:49+0200\n"
+"PO-Revision-Date: 2015-01-27 19:49+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: en\n"
@@ -64,109 +64,110 @@ msgstr ""
 msgid "Newer posts &rarr;"
 msgstr ""
 
-#: comments.php:8
+#: comments.php:8 degrona15/comments.php:8
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
 msgstr ""
 
-#: comments.php:9
+#: comments.php:9 degrona15/comments.php:9
 #, php-format
 msgid "%1$s"
 msgstr ""
 
-#: comments.php:10
+#: comments.php:10 degrona15/comments.php:10
 msgid "(Edit)"
 msgstr ""
 
-#: comments.php:16
+#: comments.php:16 degrona15/comments.php:16
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: comments.php:24
+#: comments.php:24 degrona15/comments.php:24
 #, php-format
 msgid "Reply to user %s comment"
 msgstr ""
 
-#: comments.php:38
+#: comments.php:38 degrona15/comments.php:38
 msgid "Please do not load this page directly. Thanks!"
 msgstr ""
 
-#: comments.php:43
+#: comments.php:43 degrona15/comments.php:43
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 
-#: comments.php:53
+#: comments.php:53 degrona15/comments.php:53
 msgid "No Responses to"
 msgstr ""
 
-#: comments.php:53
+#: comments.php:53 degrona15/comments.php:53
 msgid "One Response to"
 msgstr ""
 
-#: comments.php:53
+#: comments.php:53 degrona15/comments.php:53
 msgid "% Responses to"
 msgstr ""
 
-#: comments.php:60
+#: comments.php:60 degrona15/comments.php:60
 msgid "&larr; Older comments"
 msgstr ""
 
-#: comments.php:61
+#: comments.php:61 degrona15/comments.php:61
 msgid "Newer comments &rarr;"
 msgstr ""
 
-#: comments.php:68
+#: comments.php:68 degrona15/comments.php:68
 msgid "Leave a Reply"
 msgstr ""
 
-#: comments.php:68
+#: comments.php:68 degrona15/comments.php:68
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr ""
 
-#: comments.php:71
+#: comments.php:71 degrona15/comments.php:71
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
-#: comments.php:75
+#: comments.php:75 degrona15/comments.php:75
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
 msgstr ""
 
-#: comments.php:75
+#: comments.php:75 degrona15/comments.php:75
 msgid "Log out of this account"
 msgstr ""
 
-#: comments.php:75
+#: comments.php:75 degrona15/comments.php:75
 msgid "Log out &raquo;"
 msgstr ""
 
-#: comments.php:78
+#: comments.php:78 degrona15/comments.php:78
 msgid "Name"
 msgstr ""
 
-#: comments.php:78 comments.php:82
+#: comments.php:78 comments.php:82 degrona15/comments.php:78
+#: degrona15/comments.php:82
 msgid " (required)"
 msgstr ""
 
-#: comments.php:82
+#: comments.php:82 degrona15/comments.php:82
 msgid "Email (will not be published)"
 msgstr ""
 
-#: comments.php:86
+#: comments.php:86 degrona15/comments.php:86
 msgid "Website"
 msgstr ""
 
-#: comments.php:91
+#: comments.php:91 degrona15/comments.php:91
 msgid "Comment"
 msgstr ""
 
-#: comments.php:94
+#: comments.php:94 degrona15/comments.php:94
 msgid "You can use these tags:"
 msgstr ""
 
-#: comments.php:95
+#: comments.php:95 degrona15/comments.php:95
 msgid "Submit Comment"
 msgstr ""
 
@@ -192,7 +193,11 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: content.php:13 degrona15/content.php:13
+#: content.php:14
+msgid "Continue reading"
+msgstr ""
+
+#: degrona15/content.php:13
 msgid "Continue reading..."
 msgstr ""
 

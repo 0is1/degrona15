@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: De Gröna 15\n"
-"POT-Creation-Date: 2015-01-15 22:53+0200\n"
-"PO-Revision-Date: 2015-01-15 22:54+0200\n"
+"POT-Creation-Date: 2015-01-27 18:56+0200\n"
+"PO-Revision-Date: 2015-01-27 18:56+0200\n"
 "Last-Translator: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language-Team: Janne Saarela <jannejuhani@gmail.com>\n"
 "Language: fi\n"
@@ -67,110 +67,111 @@ msgstr "﻿&larr; Vanhemmat artikkelit"
 msgid "Newer posts &rarr;"
 msgstr "﻿Uudemmat artikkelit &rarr;"
 
-#: comments.php:8
+#: comments.php:8 degrona15/comments.php:8
 #, php-format
 msgid "<cite class=\"fn\">%s</cite>"
 msgstr "<cite class=\"fn\">%s</cite>"
 
-#: comments.php:9
+#: comments.php:9 degrona15/comments.php:9
 #, php-format
 msgid "%1$s"
 msgstr "%1$s"
 
-#: comments.php:10
+#: comments.php:10 degrona15/comments.php:10
 msgid "(Edit)"
 msgstr "(Muokkaa)"
 
-#: comments.php:16
+#: comments.php:16 degrona15/comments.php:16
 msgid "Your comment is awaiting moderation."
 msgstr "Kommenttisi odottaa hyväksyntää."
 
-#: comments.php:24
+#: comments.php:24 degrona15/comments.php:24
 #, php-format
 msgid "Reply to user %s comment"
 msgstr "Vastaus käyttäjän %s kommenttiin"
 
-#: comments.php:38
+#: comments.php:38 degrona15/comments.php:38
 msgid "Please do not load this page directly. Thanks!"
 msgstr "﻿Älä lataa tätä sivua suoraan. Kiitos!"
 
-#: comments.php:43
+#: comments.php:43 degrona15/comments.php:43
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 "Tämä kirjoitus on salasanasuojattu. Syötä salasana nähdäksesi kommentit."
 
-#: comments.php:53
+#: comments.php:53 degrona15/comments.php:53
 msgid "No Responses to"
 msgstr "Ei kommentteja tekstiin"
 
-#: comments.php:53
+#: comments.php:53 degrona15/comments.php:53
 msgid "One Response to"
 msgstr "Yksi kommentti tekstiin"
 
-#: comments.php:53
+#: comments.php:53 degrona15/comments.php:53
 msgid "% Responses to"
 msgstr "% kommenttia tekstiin"
 
-#: comments.php:60
+#: comments.php:60 degrona15/comments.php:60
 msgid "&larr; Older comments"
 msgstr "﻿&larr; Vanhemmat kommentit"
 
-#: comments.php:61
+#: comments.php:61 degrona15/comments.php:61
 msgid "Newer comments &rarr;"
 msgstr "﻿Uudemmat kommentit &rarr;"
 
-#: comments.php:68
+#: comments.php:68 degrona15/comments.php:68
 msgid "Leave a Reply"
 msgstr "Lisää kommentti"
 
-#: comments.php:68
+#: comments.php:68 degrona15/comments.php:68
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr "Vastaa käyttäjän %s kommenttiin"
 
-#: comments.php:71
+#: comments.php:71 degrona15/comments.php:71
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "﻿Sinun pitää <a href=\"%s\">kirjautua</a> kommentointia varten."
 
-#: comments.php:75
+#: comments.php:75 degrona15/comments.php:75
 #, php-format
 msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
 msgstr "﻿Kirjautuneena tunnuksella <a href=\"%s/wp-admin/profile.php\">%s</a>."
 
-#: comments.php:75
+#: comments.php:75 degrona15/comments.php:75
 msgid "Log out of this account"
 msgstr "﻿Kirjaudu ulos"
 
-#: comments.php:75
+#: comments.php:75 degrona15/comments.php:75
 msgid "Log out &raquo;"
 msgstr "﻿Kirjaudu ulos &raquo;"
 
-#: comments.php:78
+#: comments.php:78 degrona15/comments.php:78
 msgid "Name"
 msgstr "﻿Nimi"
 
-#: comments.php:78 comments.php:82
+#: comments.php:78 comments.php:82 degrona15/comments.php:78
+#: degrona15/comments.php:82
 msgid " (required)"
 msgstr " ﻿(pakollinen)"
 
-#: comments.php:82
+#: comments.php:82 degrona15/comments.php:82
 msgid "Email (will not be published)"
 msgstr "﻿Sähköposti (ei julkaista)"
 
-#: comments.php:86
+#: comments.php:86 degrona15/comments.php:86
 msgid "Website"
 msgstr "Kotisivusi"
 
-#: comments.php:91
+#: comments.php:91 degrona15/comments.php:91
 msgid "Comment"
 msgstr "﻿Kommentti"
 
-#: comments.php:94
+#: comments.php:94 degrona15/comments.php:94
 msgid "You can use these tags:"
 msgstr "﻿Voit käyttää HTML-tageja ja lyhytkoodeja."
 
-#: comments.php:95
+#: comments.php:95 degrona15/comments.php:95
 msgid "Submit Comment"
 msgstr "﻿Lähetä kommentti"
 
@@ -199,7 +200,11 @@ msgid ""
 "searching can help."
 msgstr "Näyttää siltä, ettemme löydä, mitä etsit. Ehkä haku auttaa?"
 
-#: content.php:13 degrona15/content.php:13
+#: content.php:14
+msgid "Continue reading"
+msgstr "Lue lisää"
+
+#: degrona15/content.php:13
 msgid "Continue reading..."
 msgstr "Lue lisää..."
 
