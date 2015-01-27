@@ -40,7 +40,7 @@ module.exports = function(grunt) {
         }, {
           expand: true,
           cwd: 'js/',
-          src: ['app.js', 'modernizr/modernizr.min.js', 'jquery/dist/jquery.min.js'],
+          src: ['app.js', 'modernizr/modernizr.min.js', 'jquery/dist/jquery.min.js', 'rem-polyfill/rem.min.js'],
           dest: 'degrona15/js/'
         }, {
           expand: true,
