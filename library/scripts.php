@@ -14,7 +14,7 @@ function de_grona_15_add_scripts(){
   // wp_register_script( 'de_grona_15_jquery', get_stylesheet_directory_uri() . '/js/jquery/dist/jquery.min.js', array(), '1.0.0', false );
   wp_register_script( 'web-font-loader','//ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js', array(), '1.0.0', false );
   wp_register_script( 'de_grona_15_foundation', get_stylesheet_directory_uri() . '/js/app.js', array('jquery'), '1.0.0', true );
-
+  wp_register_script( 'de_grona_15_ie_rem', get_stylesheet_directory_uri() . '/js/rem-polyfill/rem.min.js', array(), '1.0.0', true );
   wp_register_style( 'de_grona_styles', get_stylesheet_directory_uri() . '/css/app.css', array(), '1.0.0', 'screen' );
   wp_enqueue_style( 'de_grona_styles' );
 
@@ -23,5 +23,6 @@ function de_grona_15_add_scripts(){
   // wp_enqueue_script( 'de_grona_15_jquery' );
   wp_enqueue_script( 'web-font-loader' );
   wp_enqueue_script( 'de_grona_15_foundation' );
+  wp_enqueue_script( 'de_grona_15_ie_rem' );
 
 }
