@@ -7,7 +7,6 @@
 
 function dequeue_parent_theme_scripts() {
   wp_dequeue_script( 'modernizr' );
-  wp_dequeue_script( 'foundation' );
 }
 
 add_action( 'wp_enqueue_scripts', 'dequeue_parent_theme_scripts', 9999 );
