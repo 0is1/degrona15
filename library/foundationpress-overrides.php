@@ -4,7 +4,13 @@
  * Remove parent theme scripts so we can handle all the scripts that are included
  * @see de_grona_15_add_scripts()
  */
-remove_action( 'wp_enqueue_scripts', 'FoundationPress_scripts', 1 );
+
+function dequeue_parent_theme_scripts() {
+  wp_dequeue_script( 'modernizr' );
+  wp_dequeue_script( 'foundation' );
+}
+
+add_action( 'wp_enqueue_scripts', 'dequeue_parent_theme_scripts', 9999 );
 
 /**
 * Remove parent theme widgets (because it's easier to handle all the sidebars in this theme)
